@@ -1,0 +1,2558 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Golympic</title>
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIkdvbHltcGljIiwgInNob3J0X25hbWUiOiAiR29seW1waWMiLCAiZGVzY3JpcHRpb24iOiAi44K044Or44OV44K544Kz44Ki566h55CG44Ki44OX44OqIiwgInN0YXJ0X3VybCI6ICIuL2luZGV4Lmh0bWwiLCAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwgImJhY2tncm91bmRfY29sb3IiOiAiIzFlODQ0OSIsICJ0aGVtZV9jb2xvciI6ICIjMWU4NDQ5IiwgIm9yaWVudGF0aW9uIjogInBvcnRyYWl0LXByaW1hcnkiLCAiaWNvbnMiOiBbeyJzcmMiOiAiZGF0YTppbWFnZS9zdmcreG1sO2Jhc2U2NCxQSE4yWnlCNGJXeHVjejBpYUhSMGNEb3ZMM2QzZHk1M015NXZjbWN2TWpBd01DOXpkbWNpSUhacFpYZENiM2c5SWpBZ01DQXhNakFnTVRJd0lpQjNhV1IwYUQwaU5URXlJaUJvWldsbmFIUTlJalV4TWlJK0NpQWdQSEpsWTNRZ2QybGtkR2c5SWpFeU1DSWdhR1ZwWjJoMFBTSXhNakFpSUhKNFBTSXlOaUlnWm1sc2JEMGlJekZsT0RRME9TSXZQZ29nSUR4amFYSmpiR1VnWTNnOUlqWXdJaUJqZVQwaU5qQWlJSEk5SWpRMklpQm1hV3hzUFNJak1tUTFZVEkzSWk4K0NpQWdQR05wY21Oc1pTQmplRDBpTmpBaUlHTjVQU0kyTUNJZ2NqMGlOREFpSUdacGJHdzlJbTV2Ym1VaUlITjBjbTlyWlQwaUkyTTVZVGcwWXlJZ2MzUnliMnRsTFhkcFpIUm9QU0l6TGpVaUx6NEtJQ0E4WTJseVkyeGxJR040UFNJMk1DSWdZM2s5SWpZd0lpQnlQU0l6TmlJZ1ptbHNiRDBpSXpGbE5tSXpOU0l2UGdvZ0lEeGxiR3hwY0hObElHTjRQU0kyTUNJZ1kzazlJamd3SWlCeWVEMGlNVFFpSUhKNVBTSTFJaUJtYVd4c1BTSWpNVEV4SWk4K0NpQWdQR1ZzYkdsd2MyVWdZM2c5SWpZd0lpQmplVDBpT0RFaUlISjRQU0l4T0NJZ2NuazlJalV1TlNJZ1ptbHNiRDBpY21kaVlTZ3dMREFzTUN3d0xqSTFLU0l2UGdvZ0lEeHNhVzVsSUhneFBTSTJNQ0lnZVRFOUlqSTRJaUI0TWowaU5qQWlJSGt5UFNJNE1DSWdjM1J5YjJ0bFBTSWpZemxoT0RSaklpQnpkSEp2YTJVdGQybGtkR2c5SWpJdU1pSWdjM1J5YjJ0bExXeHBibVZqWVhBOUluSnZkVzVrSWk4K0NpQWdQSEJ2YkhsbmIyNGdjRzlwYm5SelBTSTJNQ3d5T0NBNE1pd3pOeUEyTUN3ME5pSWdabWxzYkQwaUkyTTVZVGcwWXlJdlBnbzhMM04yWno0PSIsICJzaXplcyI6ICIxOTJ4MTkyIiwgInR5cGUiOiAiaW1hZ2Uvc3ZnK3htbCIsICJwdXJwb3NlIjogImFueSBtYXNrYWJsZSJ9LCB7InNyYyI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJSFpwWlhkQ2IzZzlJakFnTUNBeE1qQWdNVEl3SWlCM2FXUjBhRDBpTlRFeUlpQm9aV2xuYUhROUlqVXhNaUkrQ2lBZ1BISmxZM1FnZDJsa2RHZzlJakV5TUNJZ2FHVnBaMmgwUFNJeE1qQWlJSEo0UFNJeU5pSWdabWxzYkQwaUl6RmxPRFEwT1NJdlBnb2dJRHhqYVhKamJHVWdZM2c5SWpZd0lpQmplVDBpTmpBaUlISTlJalEySWlCbWFXeHNQU0lqTW1RMVlUSTNJaTgrQ2lBZ1BHTnBjbU5zWlNCamVEMGlOakFpSUdONVBTSTJNQ0lnY2owaU5EQWlJR1pwYkd3OUltNXZibVVpSUhOMGNtOXJaVDBpSTJNNVlUZzBZeUlnYzNSeWIydGxMWGRwWkhSb1BTSXpMalVpTHo0S0lDQThZMmx5WTJ4bElHTjRQU0kyTUNJZ1kzazlJall3SWlCeVBTSXpOaUlnWm1sc2JEMGlJekZsTm1Jek5TSXZQZ29nSUR4bGJHeHBjSE5sSUdONFBTSTJNQ0lnWTNrOUlqZ3dJaUJ5ZUQwaU1UUWlJSEo1UFNJMUlpQm1hV3hzUFNJak1URXhJaTgrQ2lBZ1BHVnNiR2x3YzJVZ1kzZzlJall3SWlCamVUMGlPREVpSUhKNFBTSXhPQ0lnY25rOUlqVXVOU0lnWm1sc2JEMGljbWRpWVNnd0xEQXNNQ3d3TGpJMUtTSXZQZ29nSUR4c2FXNWxJSGd4UFNJMk1DSWdlVEU5SWpJNElpQjRNajBpTmpBaUlIa3lQU0k0TUNJZ2MzUnliMnRsUFNJall6bGhPRFJqSWlCemRISnZhMlV0ZDJsa2RHZzlJakl1TWlJZ2MzUnliMnRsTFd4cGJtVmpZWEE5SW5KdmRXNWtJaTgrQ2lBZ1BIQnZiSGxuYjI0Z2NHOXBiblJ6UFNJMk1Dd3lPQ0E0TWl3ek55QTJNQ3cwTmlJZ1ptbHNiRDBpSTJNNVlUZzBZeUl2UGdvOEwzTjJaejQ9IiwgInNpemVzIjogIjUxMng1MTIiLCAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIn1dfQ==">
+<link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+CiAgPHJlY3Qgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHJ4PSIyNiIgZmlsbD0iIzFlODQ0OSIvPgogIDxjaXJjbGUgY3g9IjYwIiBjeT0iNjAiIHI9IjQ2IiBmaWxsPSIjMmQ1YTI3Ii8+CiAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M5YTg0YyIgc3Ryb2tlLXdpZHRoPSIzLjUiLz4KICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSIzNiIgZmlsbD0iIzFlNmIzNSIvPgogIDxlbGxpcHNlIGN4PSI2MCIgY3k9IjgwIiByeD0iMTQiIHJ5PSI1IiBmaWxsPSIjMTExIi8+CiAgPGVsbGlwc2UgY3g9IjYwIiBjeT0iODEiIHJ4PSIxOCIgcnk9IjUuNSIgZmlsbD0icmdiYSgwLDAsMCwwLjI1KSIvPgogIDxsaW5lIHgxPSI2MCIgeTE9IjI4IiB4Mj0iNjAiIHkyPSI4MCIgc3Ryb2tlPSIjYzlhODRjIiBzdHJva2Utd2lkdGg9IjIuMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBvbHlnb24gcG9pbnRzPSI2MCwyOCA4MiwzNyA2MCw0NiIgZmlsbD0iI2M5YTg0YyIvPgo8L3N2Zz4=">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Golympic">
+<meta name="theme-color" content="#1a1a1a">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Oswald:wght@400;600;700&display=swap');
+:root{
+  --bg:#f0f2f5;--bg2:#ffffff;--bg3:#e8eaed;--card:#ffffff;
+  --green:#1e8449;--gold:#c9a84c;
+  --red:#e74c3c;--blue:#3498db;--purple:#9b59b6;
+  --g1:#555;--g2:#888;--g3:#ccc;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html,body{height:100%;overflow:hidden;}
+body{font-family:'Noto Sans JP',sans-serif;background:var(--bg);color:#1a1a1a;display:flex;flex-direction:column;height:100vh;}
+
+/* ── ヘッダー ── */
+.hdr{background:var(--green);border-bottom:1px solid #1a6b3c;display:flex;align-items:center;justify-content:space-between;padding:8px 12px;flex-shrink:0;}
+.hdr-logo{font-family:'Oswald',sans-serif;font-size:22px;font-weight:700;color:var(--gold);letter-spacing:4px;text-shadow:0 1px 3px rgba(0,0,0,0.4);}
+.hdr-sub{font-size:11px;color:rgba(255,255,255,0.8);margin-top:1px;}
+.hdr-btns{display:flex;flex-direction:column;gap:0;align-items:flex-end;}
+.hbtn{border:1px solid rgba(255,255,255,0.7);color:#fff;background:rgba(255,255,255,0.15);padding:5px 9px;border-radius:5px;font-size:11px;font-weight:700;cursor:pointer;font-family:'Noto Sans JP',sans-serif;white-space:nowrap;}
+.hbtn.solid{background:#fff;color:var(--green);}
+.hbtn.on{border-color:#fff;color:#fff;background:rgba(52,152,219,0.5);}
+
+/* ── ナビ ── */
+.nav{display:flex;background:#fff;border-bottom:2px solid var(--bg3);flex-shrink:0;}
+.tab{flex:1;padding:9px 2px;text-align:center;font-size:11px;color:#888;cursor:pointer;border-bottom:3px solid transparent;transition:all 0.15s;}
+.tab.active{color:var(--green);border-bottom-color:var(--green);background:rgba(30,132,73,0.08);}
+
+/* ── ページ ── */
+.pages{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden;}
+.page{display:none;flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;min-height:0;}
+.page.active{display:flex;flex-direction:column;}
+.inner{padding:10px;}
+.sec{font-family:'Oswald',sans-serif;font-size:15px;color:var(--green);padding:8px 0 6px;border-bottom:2px solid var(--bg3);margin-bottom:8px;}
+.card{background:#fff;border-radius:10px;padding:14px;margin-bottom:10px;box-shadow:0 1px 4px rgba(0,0,0,0.1);}
+.empty{text-align:center;padding:40px 20px;color:#aaa;}
+
+/* ── スコアページ ── */
+.score-page{display:flex;flex-direction:column;height:100%;}
+.stbl-wrap{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;}
+.stbl{width:100%;border-collapse:collapse;font-size:13px;white-space:nowrap;}
+.stbl thead th{background:var(--green);color:#fff;padding:6px 3px;text-align:center;font-size:11px;border:1px solid rgba(255,255,255,0.15);position:sticky;top:0;z-index:5;}
+.stbl thead th.hcol{background:var(--gold);color:#1a1a1a;left:0;z-index:6;min-width:30px;}
+.stbl td{padding:2px;text-align:center;border:1px solid #ddd;vertical-align:middle;}
+.stbl tbody tr:nth-child(even) td{background:#f8f9fa;}
+.stbl td.hcell{background:#f0f2f5;font-family:'Oswald',sans-serif;font-size:13px;font-weight:600;color:var(--gold);position:sticky;left:0;z-index:4;}
+.stbl tr.sub td{background:#e8f5ed;color:#1a1a1a;font-weight:700;font-size:13px;border:1px solid #b2dfdb;}
+.stbl tr.sub td.hcell{background:var(--green);color:#fff;}
+.stbl tr.tot td{background:#c8e6c9;color:#1a1a1a;font-weight:700;font-size:14px;border:1px solid #a5d6a7;}
+.stbl tr.tot td.hcell{background:var(--green);color:#fff;}
+.stbl tr.putt-row td{background:#e8f4fd;}
+.stbl tr.putt-row td.hcell{background:#d6eaf8;}
+
+/* スコア入力 */
+.par-inp{width:34px;height:28px;background:transparent;border:none;text-align:center;font-size:13px;font-weight:700;color:#fff;font-family:'Noto Sans JP',sans-serif;-moz-appearance:textfield;}
+.par-inp::-webkit-inner-spin-button{display:none;}
+.par-inp:focus{outline:1px solid var(--gold);border-radius:3px;}
+.sc-btn{width:44px;height:38px;background:#f8f9fa;border:1.5px solid #ccc;border-radius:5px;text-align:center;font-size:17px;font-weight:700;color:#1a1a1a;font-family:'Oswald',sans-serif;cursor:pointer;padding:0;}
+
+/* アンダー：青系 */
+.sc-btn.eagle {background:#dbeafe;border-color:#2563eb;color:#1d4ed8;}
+.sc-btn.birdie{background:#dbeafe;border-color:#2563eb;color:#1d4ed8;}
+/* パー：緑系 */
+.sc-btn.par   {background:#dcfce7;border-color:#16a34a;color:#15803d;}
+/* オーバー：赤系 */
+.sc-btn.bogey {background:#fee2e2;border-color:#dc2626;color:#b91c1c;}
+.sc-btn.double{background:#fee2e2;border-color:#dc2626;color:#b91c1c;}
+.sc-btn.triple{background:#fee2e2;border-color:#dc2626;color:#b91c1c;}
+.pt-btn{width:34px;height:26px;background:#e8f4fd;border:1px solid #85c1e9;border-radius:4px;text-align:center;font-size:13px;font-weight:600;color:#1a6b9a;font-family:'Oswald',sans-serif;cursor:pointer;padding:0;}
+
+
+.over-cell{font-family:'Oswald',sans-serif;font-size:12px;font-weight:700;min-width:28px;}
+
+/* サマリー */
+.summary{background:#fff;border-top:2px solid var(--bg3);display:flex;flex-shrink:0;}
+.ss{flex:1;text-align:center;padding:4px 3px;border-right:1px solid #eee;}
+.ss:last-child{border-right:none;}
+.ss-name{font-size:9px;color:#888;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.ss-g{font-family:'Oswald',sans-serif;font-size:18px;font-weight:700;line-height:1.1;}
+.ss-d{font-size:10px;color:var(--g1);font-weight:600;}
+
+/* ── オリンピック ── */
+.otbl-wrap{overflow-x:auto;margin-bottom:12px;}
+.otbl{width:100%;border-collapse:collapse;font-size:12px;}
+.otbl thead th{background:var(--green);color:#fff;padding:4px 2px;text-align:center;font-size:10px;border:1px solid rgba(255,255,255,0.15);}
+.otbl thead th.hcol{background:var(--gold);color:#1a1a1a;position:sticky;left:0;z-index:6;min-width:24px;font-size:10px;}
+.otbl td{padding:1px 0;text-align:center;border:1px solid #ddd;background:#fff;vertical-align:middle;color:#1a1a1a;font-size:11px;}
+.otbl tbody tr:nth-child(even) td{background:#f0f7f3;}
+.otbl td.hcell{background:#f0f7f3;font-family:'Oswald',sans-serif;font-size:13px;font-weight:600;color:var(--green);position:sticky;left:0;z-index:4;border-right:2px solid #ccc;}
+.otbl tr.osub td{background:#e8f5ed;color:#1a1a1a;font-weight:700;border:1px solid #b2dfdb;}
+.otbl tr.osub td.hcell{background:var(--green);color:#fff;}
+.otbl tr.otot td{background:#c8e6c9;color:#1a1a1a;font-weight:700;font-size:14px;border:1px solid #a5d6a7;}
+.otbl tr.otot td.hcell{background:var(--green);color:#fff;}
+.oi{width:44px;height:36px;background:#f8f9fa;border:1.5px solid #ccc;border-radius:5px;text-align:center;font-size:14px;font-weight:700;color:#1a1a1a;font-family:'Oswald',sans-serif;-moz-appearance:textfield;}
+
+.oi::-webkit-inner-spin-button{display:none;}
+.oi:focus{outline:none;border-color:var(--gold);}
+.oi.pos{border-color:#2ecc71;background:#1a3a22;color:#2ecc71;}
+.oi.neg{border-color:var(--red);background:#3a1a1a;color:var(--red);}
+.pp{color:#2ecc71;font-weight:700;}.pm{color:var(--red);font-weight:700;}.pz{color:var(--g2);}.pn{color:var(--bg3);}
+.rtbl{width:100%;border-collapse:collapse;font-size:13px;}
+.rtbl thead th{background:var(--green);color:#fff;padding:7px 5px;text-align:center;font-size:11px;}
+.rtbl td{padding:8px 5px;text-align:center;border-bottom:1px solid var(--bg3);}
+.rtbl tbody tr:last-child td{border-bottom:none;}
+.pnm{text-align:left !important;padding-left:10px !important;font-weight:600;}
+.rb{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:700;font-size:11px;}
+.r1{background:var(--gold);color:#1a1a1a;}.r2{background:#888;color:#fff;}.r3{background:#cd7f32;color:#fff;}
+
+/* ── 履歴 ── */
+.rc{background:#fff;box-shadow:0 1px 4px rgba(0,0,0,0.1);border-radius:10px;margin-bottom:8px;overflow:hidden;}
+.rch{background:linear-gradient(90deg,var(--green),#1a4a2e);padding:8px 12px;display:flex;justify-content:space-between;align-items:center;}
+.rct{font-weight:700;font-size:14px;color:#fff;}
+.rcd{font-size:11px;color:#fff;opacity:1;}
+.rcb{padding:10px 12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+.rst{text-align:center;}
+.rsv{font-family:'Oswald',sans-serif;font-size:22px;font-weight:700;color:var(--gold);}
+.rsl{font-size:10px;color:var(--g1);}
+.rca{margin-left:auto;display:flex;gap:6px;}
+.rcs{font-size:10px;color:var(--g2);padding:2px 12px 8px;}
+
+/* ── 統計 ── */
+.chips{display:flex;gap:6px;flex-wrap:wrap;padding:8px 0 10px;}
+.chip{padding:5px 14px;border-radius:20px;font-size:12px;border:1px solid #ddd;background:#f0f2f5;cursor:pointer;color:#555;}
+.chip.active{background:var(--green);border-color:var(--green);color:#fff;}
+.sgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px;}
+.sbox{text-align:center;padding:9px;background:#f0f2f5;border-radius:8px;}
+.sv{font-family:'Oswald',sans-serif;font-size:20px;font-weight:700;color:var(--gold);}
+.sl{font-size:10px;color:var(--g1);margin-top:2px;}
+.bar{display:flex;align-items:flex-end;gap:4px;height:60px;margin:8px 0;}
+.bi{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;}
+.bf{width:100%;border-radius:3px 3px 0 0;}
+.bl{font-size:9px;color:var(--g1);text-align:center;line-height:1.2;}
+.bv{font-size:9px;font-weight:700;}
+
+/* ── ゴルフ場登録 ── */
+.vtbl{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:6px;}
+.vtbl th{background:var(--green);color:#fff;padding:6px 10px;text-align:center;font-size:11px;border:1px solid rgba(255,255,255,0.2);}
+.vtbl td{padding:5px 8px;text-align:center;border:1px solid #ddd;background:#fff;}
+/* vtbl の行色はJS側で3ホールごとに制御 */
+.vtbl tfoot td{background:#e8f5ed;color:#1a1a1a;font-weight:700;color:var(--gold);font-family:'Oswald',sans-serif;}
+.cpi{width:50px;height:32px;background:#f8f9fa;border:1px solid #ccc;color:#1a1a1a;border-radius:4px;text-align:center;font-size:14px;font-weight:700;font-family:'Oswald',sans-serif;-moz-appearance:textfield;}
+.cpi::-webkit-inner-spin-button{display:none;}
+.cpi:focus{outline:none;border-color:var(--gold);}
+.gcc{background:#fff;box-shadow:0 1px 4px rgba(0,0,0,0.1);border-radius:10px;margin-bottom:8px;overflow:hidden;}
+.gcch{background:linear-gradient(90deg,var(--green),#1a4a2e);padding:9px 12px;display:flex;justify-content:space-between;align-items:center;}
+.gccn{font-weight:700;font-size:14px;color:#fff;}
+.gccr{background:#f0f7f3;border-radius:6px;margin:6px;padding:8px 10px;}
+.gpr{display:flex;gap:3px;overflow-x:auto;padding-bottom:2px;}
+.gpc{text-align:center;flex-shrink:0;min-width:26px;}
+.gpnl{font-size:9px;color:#666;}
+.gpv{font-family:'Oswald',sans-serif;font-size:13px;font-weight:700;color:#1a1a1a;}
+.gsub{font-size:11px;color:#555;margin-top:3px;}
+
+/* ── モーダル ── */
+.mov{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:200;align-items:center;justify-content:center;padding:14px;}
+.mov.open{display:flex;}
+.modal{background:#fff;border-radius:14px;width:100%;max-width:420px;max-height:92vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.6);border:1px solid var(--bg3);}
+.mhdr{background:var(--green);color:#fff;padding:12px 16px;border-radius:14px 14px 0 0;display:flex;justify-content:space-between;align-items:center;}
+.mttl{font-family:'Oswald',sans-serif;font-size:16px;font-weight:600;}
+.mx{background:none;border:none;color:#fff;font-size:24px;cursor:pointer;line-height:1;padding:0 4px;}
+.mbody{padding:14px 16px;}
+.mftr{padding:10px 16px;border-top:1px solid var(--bg3);display:flex;gap:8px;justify-content:flex-end;}
+
+/* フォーム */
+.flbl{font-size:12px;color:#555;margin-bottom:4px;display:block;}
+.fi{width:100%;padding:8px 10px;border:1.5px solid #ddd;border-radius:6px;font-size:14px;color:#1a1a1a;font-family:'Noto Sans JP',sans-serif;background:#f8f9fa;margin-bottom:10px;}
+.fi:focus{outline:none;border-color:var(--green);background:#fff;}
+.fsel{width:100%;padding:8px 10px;border:1.5px solid #ddd;border-radius:6px;font-size:14px;color:#1a1a1a;font-family:'Noto Sans JP',sans-serif;background:#f8f9fa;margin-bottom:10px;}
+.fsel:focus{outline:none;border-color:var(--green);}
+.frow{display:flex;gap:8px;}.frow>div{flex:1;}
+
+/* ボタン */
+.btn{padding:9px 16px;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;border:none;font-family:'Noto Sans JP',sans-serif;}
+.btn-g{background:var(--gold);color:#1a1a1a;}
+.btn-o{background:#fff;border:1.5px solid #ccc;color:#555;}
+.btn-gr{background:var(--green);color:#fff;}
+.bsm{padding:5px 10px;border-radius:5px;font-size:11px;font-weight:600;cursor:pointer;border:none;font-family:'Noto Sans JP',sans-serif;}
+.bsm-g{background:var(--green);color:#fff;}
+.bsm-r{background:#3a1a1a;color:var(--red);border:1px solid #5a2a2a;}
+
+/* トースト */
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--green);color:#fff;padding:10px 20px;border-radius:8px;font-size:13px;z-index:300;transition:transform .3s;pointer-events:none;white-space:nowrap;}
+.toast.show{transform:translateX(-50%) translateY(0);}
+
+/* カスタムキーパッド */
+.oi-btn{width:100%;height:36px;background:#f8f9fa;border:1.5px solid #ccc;border-radius:5px;text-align:center;font-size:15px;font-weight:700;color:#1a1a1a;font-family:'Oswald',sans-serif;cursor:pointer;}
+.oi-btn.pos{border-color:#2ecc71;background:#e8f8f0;color:#27ae60;}
+.oi-btn.neg{border-color:#e74c3c;background:#fde8e8;color:#e74c3c;}
+.kpad-btn{padding:14px;border:1px solid #ddd;border-radius:8px;font-family:'Oswald',sans-serif;font-size:20px;font-weight:700;color:#1a1a1a;background:#fff;cursor:pointer;box-shadow:0 2px 4px rgba(0,0,0,0.1);}
+.kpad-btn:active{background:#f0f0f0;}
+.kpad-sign{background:#e8f5ed;color:#27ae60;border-color:#27ae60;}
+.kpad-del{background:#fde8e8;color:#e74c3c;border-color:#e74c3c;}
+
+/* ── スプラッシュ画面 ── */
+#splash{position:fixed;inset:0;background:var(--green);z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;}
+#splash.hidden{display:none;}
+.splash-logo{font-family:'Oswald',sans-serif;font-size:48px;font-weight:700;color:var(--gold);letter-spacing:6px;opacity:0;transform:scale(0.6) translateY(20px);animation:splashIn 1.2s cubic-bezier(.22,1,.36,1) 0.3s forwards;}
+.splash-sub{font-size:14px;color:rgba(255,255,255,0.7);letter-spacing:3px;opacity:0;animation:splashIn 1s ease 1s forwards;}
+.splash-ball{width:120px;height:120px;opacity:0;animation:ballDrop 0.8s ease 0.1s forwards;filter:drop-shadow(0 6px 20px rgba(0,0,0,0.4));}
+@keyframes splashIn{to{opacity:1;transform:scale(1) translateY(0);}}
+@keyframes ballDrop{0%{opacity:0;transform:translateY(-40px);}60%{opacity:1;transform:translateY(8px);}80%{transform:translateY(-4px);}100%{opacity:1;transform:translateY(0);}}
+
+/* ── HOME画面 ── */
+#page-home{background:var(--bg);}
+.home-inner{padding:24px 16px;}
+.home-hero{text-align:center;padding:20px 0 28px;}
+.home-hero-logo{font-family:'Oswald',sans-serif;font-size:32px;font-weight:700;color:var(--gold);letter-spacing:5px;text-shadow:0 2px 8px rgba(0,0,0,0.2);}
+.home-hero-sub{font-size:12px;color:var(--g1);letter-spacing:2px;margin-top:4px;}
+.home-menu{display:flex;flex-direction:column;gap:14px;}
+.home-btn{display:flex;align-items:center;gap:16px;background:#fff;border:none;border-radius:14px;padding:20px 18px;width:100%;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,0.08);text-align:left;transition:transform 0.1s;}
+.home-btn:active{transform:scale(0.98);}
+.home-btn-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;}
+.home-btn-text{flex:1;}
+.home-btn-title{font-family:'Oswald',sans-serif;font-size:18px;font-weight:700;color:#1a1a1a;letter-spacing:1px;}
+.home-btn-desc{font-size:11px;color:#888;margin-top:2px;}
+.home-btn-arrow{font-size:18px;color:#ccc;}
+
+/* ── スコア中の下部ナビ ── */
+.score-nav{display:flex;background:#fff;border-top:2px solid var(--bg3);flex-shrink:0;position:relative;z-index:10;}
+.snav-tab{flex:1;padding:10px 2px;text-align:center;font-size:11px;color:#888;cursor:pointer;border-top:2px solid transparent;}
+.snav-tab.active{color:var(--green);border-top-color:var(--green);background:rgba(30,132,73,0.06);font-weight:700;}
+.snav-save{color:var(--green);font-weight:700;}
+
+.weather-btn{padding:8px 14px;border:2px solid #ddd;border-radius:10px;background:#f8f9fa;font-size:22px;cursor:pointer;transition:all 0.15s;}
+.weather-btn.selected{border-color:var(--green);background:#e8f5ed;transform:scale(1.1);}
+.weather-btn:first-child{font-size:13px;font-weight:600;color:#888;padding:8px 12px;}
+.weather-btn.selected:first-child{color:var(--green);}
+
+/* 音声入力 */
+#snav-mic{font-size:18px;}
+#snav-mic.recording{color:#e74c3c;animation:micPulse 0.8s ease infinite;}
+@keyframes micPulse{0%,100%{opacity:1;}50%{opacity:0.4;}}
+
+.hist-sort-btn{padding:5px 10px;border-radius:16px;border:1.5px solid #ddd;background:#fff;color:#666;font-size:11px;font-weight:600;cursor:pointer;font-family:'Noto Sans JP',sans-serif;}
+.hist-sort-btn.active{border-color:var(--green);background:var(--green);color:#fff;}
+</style>
+</head>
+<body>
+
+<!-- スプラッシュ画面 -->
+<div id="splash">
+  <svg class="splash-ball" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+    <!-- 外側の丸（ダーク緑） -->
+    <circle cx="60" cy="60" r="58" fill="#2d5a27"/>
+    <!-- 金色のリング -->
+    <circle cx="60" cy="60" r="52" fill="none" stroke="#c9a84c" stroke-width="4"/>
+    <!-- 内側の緑 -->
+    <circle cx="60" cy="60" r="48" fill="#1e6b35"/>
+    <!-- ホールの影（楕円） -->
+    <ellipse cx="60" cy="82" rx="18" ry="6" fill="rgba(0,0,0,0.35)"/>
+    <!-- ホール -->
+    <ellipse cx="60" cy="80" rx="14" ry="5" fill="#111"/>
+    <!-- ピン（旗竿） -->
+    <line x1="60" y1="28" x2="60" y2="80" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 旗 -->
+    <polygon points="60,28 84,38 60,48" fill="#c9a84c"/>
+  </svg>
+  <div class="splash-logo">GOLYMPIC</div>
+  <div class="splash-sub">produced by parisken</div>
+</div>
+
+<!-- ヘッダー -->
+<div class="hdr">
+  <div>
+    <div class="hdr-logo" onclick="showPage('home')" style="cursor:pointer;display:flex;align-items:center;gap:7px;">
+      <svg width="28" height="28" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+        <circle cx="60" cy="60" r="58" fill="#2d5a27"/>
+        <circle cx="60" cy="60" r="52" fill="none" stroke="#c9a84c" stroke-width="4"/>
+        <circle cx="60" cy="60" r="48" fill="#1e6b35"/>
+        <ellipse cx="60" cy="82" rx="18" ry="6" fill="rgba(0,0,0,0.35)"/>
+        <ellipse cx="60" cy="80" rx="14" ry="5" fill="#111"/>
+        <line x1="60" y1="28" x2="60" y2="80" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round"/>
+        <polygon points="60,28 84,38 60,48" fill="#c9a84c"/>
+      </svg>
+      GOLYMPIC
+    </div>
+    <div class="hdr-sub" id="hdr-course" style="display:none;">
+      <span id="hdr-course-name">-</span>
+      <span id="hdr-course-date" style="margin-left:8px;opacity:0.7;"></span>
+    </div>
+  </div>
+  <div class="hdr-btns">
+    <button class="hbtn" id="edit-round-btn" style="display:none;" onclick="showPage('history')">📋 履歴</button>
+  </div>
+</div>
+
+<!-- スコア中の下部ナビ（スコアページのみ表示） -->
+<div class="score-nav" id="score-nav" style="display:none;">
+  <div class="snav-tab active" id="snav-score" onclick="showPage('score')">🏌️ スコア</div>
+  <div class="snav-tab" id="snav-olympic" onclick="showPage('olympic')">🏅 オリンピック</div>
+  <div class="snav-tab" id="snav-stats" onclick="showPage('stats')">📊 統計</div>
+  <div class="snav-tab" id="snav-back-hist" onclick="openEditRound()" style="display:none;">✏️ 編集</div>
+  <div class="snav-tab snav-save" onclick="saveToHistory()">💾 保存</div>
+</div>
+
+
+<div class="pages">
+
+
+  <!-- HOME -->
+  <div id="page-home" class="page">
+    <div class="home-inner">
+      <div class="home-hero">
+        <div class="home-hero-logo">GOLYMPIC</div>
+        <div class="home-hero-sub">produced by parisken</div>
+      </div>
+      <div class="home-menu">
+        <button class="home-btn" onclick="openNewRound()">
+          <div class="home-btn-icon" style="background:#e8f5ed;">🏌️</div>
+          <div class="home-btn-text">
+            <div class="home-btn-title">新規ラウンド</div>
+            <div class="home-btn-desc">ゴルフ場・プレイヤーを選んで開始</div>
+          </div>
+          <div class="home-btn-arrow">›</div>
+        </button>
+        <button class="home-btn" onclick="showPage('history')">
+          <div class="home-btn-icon" style="background:#e8f4fd;">📋</div>
+          <div class="home-btn-text">
+            <div class="home-btn-title">履歴</div>
+            <div class="home-btn-desc">過去のラウンドを確認・読み込み</div>
+          </div>
+          <div class="home-btn-arrow">›</div>
+        </button>
+        <button class="home-btn" onclick="showPage('settings')">
+          <div class="home-btn-icon" style="background:#fef9e7;">⚙️</div>
+          <div class="home-btn-text">
+            <div class="home-btn-title">設定</div>
+            <div class="home-btn-desc">ゴルフ場登録・プレイヤー登録</div>
+          </div>
+          <div class="home-btn-arrow">›</div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- スコア -->
+  <div id="page-score" class="page">
+    <div class="score-page">
+      <div style="background:var(--bg2);padding:6px 12px;border-bottom:1px solid var(--bg3);display:flex;align-items:center;gap:10px;flex-shrink:0;">
+        <button id="putt-btn" onclick="togglePutt()"
+          style="border:1px solid var(--g3);color:var(--g2);background:transparent;padding:5px 12px;border-radius:5px;font-size:12px;font-weight:700;cursor:pointer;font-family:'Noto Sans JP',sans-serif;">
+          🏌️ パット 非表示
+        </button>
+        <span style="font-size:11px;color:var(--g2);">タップでパット入力の表示切替</span>
+      </div>
+      <div class="stbl-wrap">
+        <table class="stbl" id="stbl"></table>
+      </div>
+      <div class="summary" id="summary"></div>
+    </div>
+  </div>
+
+  <!-- オリンピック -->
+  <div id="page-olympic" class="page">
+    <div class="inner">
+      <div class="card" style="display:flex;align-items:center;gap:12px;padding:10px 14px;">
+        <div>
+          <label class="flbl" style="margin-bottom:2px;">単価（円/pt）</label>
+          <input type="number" id="unit-price" value="100" min="1"
+            style="width:88px;padding:6px 8px;border:1.5px solid #ddd;border-radius:6px;font-size:14px;color:#1a1a1a;background:#f8f9fa;"
+            oninput="renderOlySummary()">
+        </div>
+        <div style="font-size:11px;color:#666;">スコアタブと独立して入力。未入力は0として計算。</div>
+      </div>
+      <div class="otbl-wrap"><table class="otbl" id="otbl"></table></div>
+      <div class="sec">🏆 順位・収支</div>
+      <div style="overflow-x:auto;"><table class="rtbl" id="rtbl"></table></div>
+    </div>
+  </div>
+
+  <!-- 履歴 -->
+  <div id="page-history" class="page">
+    <div class="inner">
+
+      <!-- スコアグラフ -->
+      <div class="card" style="margin-bottom:10px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:6px;">
+          <div style="font-weight:700;color:var(--gold);font-size:13px;">📈 グロススコア推移</div>
+          <div style="display:flex;gap:4px;">
+            <button class="hist-sort-btn active" id="hrange-1y" onclick="setHistRange('1y')">1年</button>
+            <button class="hist-sort-btn" id="hrange-6m" onclick="setHistRange('6m')">6ヶ月</button>
+            <button class="hist-sort-btn" id="hrange-all" onclick="setHistRange('all')">全期間</button>
+          </div>
+        </div>
+        <div id="hist-avg" style="font-size:12px;color:#666;margin-bottom:8px;"></div>
+        <div style="overflow-x:auto;">
+          <canvas id="hist-chart" style="min-width:300px;height:160px;display:block;"></canvas>
+        </div>
+      </div>
+
+      <div class="sec">📋 ラウンド一覧</div>
+      <div style="display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap;">
+        <button class="hist-sort-btn active" id="hsort-new" onclick="setHistSort('new')">🕐 新しい順</button>
+        <button class="hist-sort-btn" id="hsort-old" onclick="setHistSort('old')">🕐 古い順</button>
+        <button class="hist-sort-btn" id="hsort-score" onclick="setHistSort('score')">🏆 スコア良い順</button>
+      </div>
+      <div id="hist-list"></div>
+    </div>
+  </div>
+
+  <!-- 統計 -->
+  <div id="page-stats" class="page">
+    <div class="inner">
+      <div class="chips" id="stat-chips"></div>
+      <div class="card">
+        <div style="font-weight:700;color:var(--gold);font-size:13px;">スコア分布</div>
+        <div class="bar" id="stat-bar"></div>
+        <div class="sgrid" id="stat-grid"></div>
+      </div>
+      <div class="card">
+        <div style="font-weight:700;color:var(--gold);font-size:13px;margin-bottom:8px;">ホール別</div>
+        <div id="stat-detail"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ゴルフ場登録 -->
+  <div id="page-course" class="page">
+    <div class="inner">
+      <div class="sec">⛳ ゴルフ場登録</div>
+      <div class="card">
+        <div style="font-family:'Oswald',sans-serif;font-size:15px;color:var(--green);margin-bottom:10px;" id="cf-ttl">新規登録</div>
+        <label class="flbl">ゴルフ場名</label>
+        <input class="fi" type="text" id="cf-name" placeholder="例：よみうりゴルフ倶楽部">
+
+        <!-- コース一覧（動的追加） -->
+        <div id="cf-courses-area"></div>
+
+        <div style="display:flex;gap:8px;margin-top:8px;">
+          <button class="btn btn-gr" onclick="addCfCourse()" style="flex:1;">＋ コースを追加</button>
+        </div>
+        <div style="display:flex;gap:8px;margin-top:8px;">
+          <button class="btn btn-g" onclick="saveCourse()" style="flex:1;">💾 保存</button>
+          <button class="btn btn-o" onclick="resetCf()" style="flex:1;">リセット</button>
+        </div>
+      </div>
+      <div class="sec">📋 登録済み</div>
+      <div id="gc-list"></div>
+    </div>
+  </div>
+
+  <!-- 設定 -->
+  <div id="page-settings" class="page">
+    <div class="inner">
+      <div class="sec">⚙️ 設定</div>
+      <div class="home-menu" style="margin-top:8px;">
+        <button class="home-btn" onclick="showPage('course')">
+          <div class="home-btn-icon" style="background:#e8f5ed;">⛳</div>
+          <div class="home-btn-text">
+            <div class="home-btn-title">ゴルフ場登録</div>
+            <div class="home-btn-desc">コース・PARを登録・管理</div>
+          </div>
+          <div class="home-btn-arrow">›</div>
+        </button>
+        <button class="home-btn" onclick="showPage('players')">
+          <div class="home-btn-icon" style="background:#fde8e8;">👤</div>
+          <div class="home-btn-text">
+            <div class="home-btn-title">プレイヤー登録</div>
+            <div class="home-btn-desc">よく一緒にプレーする仲間を登録</div>
+          </div>
+          <div class="home-btn-arrow">›</div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- プレイヤー登録 -->
+  <div id="page-players" class="page">
+    <div class="inner">
+      <div class="sec">👤 プレイヤー登録</div>
+
+      <!-- 自分の名前 -->
+      <div class="card" style="border:2px solid var(--green);">
+        <div style="font-size:12px;color:var(--green);font-weight:700;margin-bottom:8px;">⭐ 自分の名前（新規ラウンドで自動的にP1に入ります）</div>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <input class="fi" type="text" id="my-name-input" placeholder="例：田中 太郎" style="margin-bottom:0;flex:1;">
+          <button class="btn btn-gr" onclick="saveMyName()" style="white-space:nowrap;">保存</button>
+        </div>
+        <div id="my-name-display" style="margin-top:8px;font-size:13px;color:#555;"></div>
+      </div>
+
+      <!-- 仲間の登録 -->
+      <div class="card">
+        <label class="flbl">仲間のプレイヤーを追加</label>
+        <div style="display:flex;gap:8px;">
+          <input class="fi" type="text" id="new-player-name" placeholder="例：鈴木 次郎" style="margin-bottom:0;flex:1;">
+          <button class="btn btn-gr" onclick="addPlayer()" style="white-space:nowrap;">追加</button>
+        </div>
+      </div>
+      <div class="sec" style="margin-top:4px;">📋 登録済みプレイヤー</div>
+      <div id="player-list"></div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+
+<!-- ラウンド情報編集モーダル -->
+<div class="mov" id="modal-edit-round">
+  <div class="modal">
+    <div class="mhdr">
+      <div class="mttl">✏️ ラウンド情報を編集</div>
+      <button class="mx" onclick="document.getElementById('modal-edit-round').classList.remove('open')">×</button>
+    </div>
+    <div class="mbody">
+      <label class="flbl">ゴルフ場名</label>
+      <input class="fi" type="text" id="edit-course" placeholder="例：よみうりゴルフ倶楽部">
+
+      <label class="flbl">日付</label>
+      <input class="fi" type="date" id="edit-date">
+
+      <div style="font-weight:700;color:var(--gold);margin:8px 0 6px;">天気（任意）</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;" id="edit-weather-btns">
+        <button class="weather-btn" data-weather="" onclick="selectEditWeather(this,'')">なし</button>
+        <button class="weather-btn" data-weather="☀️" onclick="selectEditWeather(this,'☀️')">☀️</button>
+        <button class="weather-btn" data-weather="⛅" onclick="selectEditWeather(this,'⛅')">⛅</button>
+        <button class="weather-btn" data-weather="🌧️" onclick="selectEditWeather(this,'🌧️')">🌧️</button>
+        <button class="weather-btn" data-weather="🌪️" onclick="selectEditWeather(this,'🌪️')">🌪️</button>
+        <button class="weather-btn" data-weather="🌨️" onclick="selectEditWeather(this,'🌨️')">🌨️</button>
+      </div>
+      <input type="hidden" id="edit-weather" value="">
+
+      <div style="font-weight:700;color:var(--gold);margin:10px 0 6px;">プレイヤー</div>
+      <div id="edit-player-slots"></div>
+    </div>
+    <div class="mftr">
+      <button class="btn btn-o" onclick="document.getElementById('modal-edit-round').classList.remove('open')">キャンセル</button>
+      <button class="btn btn-g" onclick="applyEditRound()">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- 新規ラウンドモーダル -->
+<div class="mov" id="modal-new">
+  <div class="modal">
+    <div class="mhdr">
+      <div class="mttl">⛳ 新規ラウンド</div>
+      <button class="mx" onclick="document.getElementById('modal-new').classList.remove('open')">×</button>
+    </div>
+    <div class="mbody">
+      <label class="flbl">ゴルフ場登録</label>
+      <select class="fsel" id="sel-club" onchange="onClubChange()">
+        <option value="">-- ゴルフ場を選択 --</option>
+        <option value="__manual__">✏️ 直接入力する</option>
+      </select>
+      <input class="fi" type="text" id="new-course" placeholder="ゴルフ場名を入力"
+        style="display:none;margin-top:-4px;" oninput="onCourseManualInput()">
+      <label class="flbl">前半コース</label>
+      <select class="fsel" id="sel-out" onchange="onCourseChange()">
+        <option value="">-- 前半コース --</option>
+      </select>
+      <label class="flbl">後半コース</label>
+      <select class="fsel" id="sel-in" onchange="onCourseChange()">
+        <option value="">-- 後半コース --</option>
+      </select>
+      <div class="frow">
+        <div>
+          <label class="flbl">日付</label>
+          <input class="fi" type="date" id="new-date">
+        </div>
+        <div>
+          <label class="flbl">ホール数</label>
+          <select class="fsel" id="new-holes">
+            <option value="18">18ホール</option>
+            <option value="9">9ホール</option>
+          </select>
+        </div>
+      </div>
+      <div style="font-weight:700;color:var(--gold);margin-bottom:8px;">プレイヤー（最大4名）</div>
+      <div id="player-slots"></div>
+
+      <div style="font-weight:700;color:var(--gold);margin:10px 0 8px;">天気（任意）</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;" id="weather-btns">
+        <button class="weather-btn" data-weather="" onclick="selectWeather(this,'')">なし</button>
+        <button class="weather-btn" data-weather="☀️" onclick="selectWeather(this,'☀️')">☀️</button>
+        <button class="weather-btn" data-weather="⛅" onclick="selectWeather(this,'⛅')">⛅</button>
+        <button class="weather-btn" data-weather="🌧️" onclick="selectWeather(this,'🌧️')">🌧️</button>
+        <button class="weather-btn" data-weather="🌪️" onclick="selectWeather(this,'🌪️')">🌪️</button>
+        <button class="weather-btn" data-weather="🌨️" onclick="selectWeather(this,'🌨️')">🌨️</button>
+      </div>
+      <input type="hidden" id="new-weather" value="">
+    </div>
+    <div class="mftr">
+      <button class="btn btn-o" onclick="document.getElementById('modal-new').classList.remove('open')">キャンセル</button>
+      <button class="btn btn-g" onclick="createRound()">開始 ▶</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- カスタムキーパッド -->
+<div class="mov" id="kpad-modal">
+  <div style="background:#fff;border-radius:14px;padding:16px;width:260px;box-shadow:0 8px 32px rgba(0,0,0,0.3);">
+    <div style="text-align:center;font-family:'Oswald',sans-serif;font-size:13px;color:#888;margin-bottom:6px;" id="kpad-label">スコア入力</div>
+    <div id="kpad-display" style="text-align:center;font-family:'Oswald',sans-serif;font-size:36px;font-weight:700;color:#1a1a1a;background:#f0f0f0;border-radius:8px;padding:8px;margin-bottom:10px;min-height:56px;letter-spacing:2px;">−</div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;">
+      <button class="kpad-btn" onclick="kpadPress(7)">7</button>
+      <button class="kpad-btn" onclick="kpadPress(8)">8</button>
+      <button class="kpad-btn" onclick="kpadPress(9)">9</button>
+      <button class="kpad-btn" onclick="kpadPress(4)">4</button>
+      <button class="kpad-btn" onclick="kpadPress(5)">5</button>
+      <button class="kpad-btn" onclick="kpadPress(6)">6</button>
+      <button class="kpad-btn" onclick="kpadPress(1)">1</button>
+      <button class="kpad-btn" onclick="kpadPress(2)">2</button>
+      <button class="kpad-btn" onclick="kpadPress(3)">3</button>
+      <button class="kpad-btn kpad-sign" onclick="kpadSign()">±</button>
+      <button class="kpad-btn" onclick="kpadPress(0)">0</button>
+      <button class="kpad-btn kpad-del" onclick="kpadDel()">⌫</button>
+    </div>
+    <div style="display:flex;gap:8px;margin-top:10px;">
+      <button class="btn btn-o" onclick="kpadClear()" style="flex:1;">クリア</button>
+      <button class="btn btn-g" onclick="kpadOk()" style="flex:1;">確定</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ===== CONSTANTS =====
+const SKEY  = 'golynpic_v1';
+const CKEY  = 'golynpic_courses_v1';
+const DPARS = [4,3,4,5,4,3,5,4,4,4,4,3,5,4,4,3,5,4];
+
+// ===== STATE =====
+let G = {
+  id:null, course:'', date:'', holes:18, weather:'',
+  players:[], pars:[...DPARS],
+  scores:null, putts:null, oly:null,
+  showPutt:false, history:[], statsP:0
+};
+let scoreTimers = {};
+let olyTimers = {};
+
+function initData() {
+  const h=G.holes, n=G.players.length;
+  G.scores = Array.from({length:h},()=>Array(n).fill(null));
+  G.putts  = Array.from({length:h},()=>Array(n).fill(null));
+  G.oly    = Array.from({length:h},()=>Array(n).fill(null));
+}
+
+// ===== 永続化 =====
+function autoSaveToHistory(){
+  // ラウンド中は自動的に履歴に保存（プレイヤーがいる場合のみ）
+  if(!G.players.length) return;
+  const e = {
+    id:G.id||Date.now(), course:G.course, date:G.date, holes:G.holes, weather:G.weather||'',
+    players:[...G.players], pars:[...G.pars],
+    scores:G.scores.map(r=>[...r]), putts:G.putts.map(r=>[...r]),
+    oly:G.oly.map(r=>[...r]), savedAt:new Date().toISOString()
+  };
+  if(!G.id) G.id=e.id;
+  else e.id=G.id;
+  const i = G.history.findIndex(h=>h.id===e.id);
+  if (i>=0) G.history[i]=e; else G.history.unshift(e);
+}
+
+function persist() {
+  // スコア入力のたびに自動で履歴にも保存
+  autoSaveToHistory();
+  try {
+    localStorage.setItem(SKEY, JSON.stringify({
+      history: G.history,
+      cur: {
+        id:G.id, course:G.course, date:G.date, holes:G.holes, weather:G.weather||'',
+        players:G.players, pars:G.pars,
+        scores:G.scores, putts:G.putts, oly:G.oly,
+        showPutt:G.showPutt, statsP:G.statsP
+      }
+    }));
+  } catch(e) {}
+}
+
+function loadSaved() {
+  try {
+    const d = JSON.parse(localStorage.getItem(SKEY) || 'null');
+    if (!d) return;
+    if (d.history) G.history = d.history;
+    if (d.cur) {
+      const c = d.cur;
+      G.id=c.id||null; G.course=c.course||''; G.date=c.date||'';
+      G.holes=c.holes||18; G.weather=c.weather||''; G.players=c.players||[]; G.pars=c.pars||[...DPARS];
+      G.scores=c.scores||null; G.putts=c.putts||null; G.oly=c.oly||null;
+      G.showPutt=c.showPutt||false; G.statsP=c.statsP||0;
+      if (!G.scores) initData();
+    }
+  } catch(e) {}
+}
+
+function saveToHistory() {
+  // 手動保存：即時保存してトーストを表示
+  autoSaveToHistory();
+  persist();
+  toast('💾 保存しました');
+}
+
+function loadEntry(id) {
+  const e = G.history.find(h=>h.id===id);
+  if (!e) return;
+  G.id=e.id; G.course=e.course; G.date=e.date; G.holes=e.holes;
+  G.players=[...e.players]; G.pars=[...e.pars];
+  G.scores=e.scores.map(r=>[...r]);
+  G.putts=e.putts ? e.putts.map(r=>[...r]) : Array.from({length:e.holes},()=>Array(e.players.length).fill(null));
+  G.oly=e.oly ? e.oly.map(r=>[...r]) : Array.from({length:e.holes},()=>Array(e.players.length).fill(null));
+  G.statsP=0;
+  const _hc=document.getElementById('hdr-course-name');
+  const _hd=document.getElementById('hdr-course-date');
+  if(_hc) _hc.textContent=G.course||'-';
+  if(_hd) _hd.textContent=G.date||'';
+  renderScore(); showPage('score');
+  // 履歴から開いた場合は「履歴に戻る」ボタンを表示
+  const backBtn=document.getElementById('snav-back-hist');
+  if(backBtn) backBtn.style.display='flex';
+  toast('📂 読み込みました');
+}
+
+function delEntry(id) {
+  if (!confirm('削除しますか？')) return;
+  G.history = G.history.filter(h=>h.id!==id);
+  // 削除したラウンドが現在のラウンドなら、G.idをリセット（再追加されないように）
+  if(G.id===id) G.id=null;
+  persistOnly(); // autoSaveToHistoryを呼ばずに保存
+  renderHist();
+  setTimeout(renderHistChart, 50);
+  toast('🗑️ 削除しました');
+}
+
+function persistOnly() {
+  // autoSaveToHistoryを呼ばずにlocalStorageに書き込む
+  try {
+    localStorage.setItem(SKEY, JSON.stringify({
+      history: G.history,
+      cur: {
+        id:G.id, course:G.course, date:G.date, holes:G.holes, weather:G.weather||'',
+        players:G.players, pars:G.pars,
+        scores:G.scores, putts:G.putts, oly:G.oly,
+        showPutt:G.showPutt, statsP:G.statsP
+      }
+    }));
+  } catch(e) {}
+}
+
+// ===== ナビ =====
+const SCORE_PAGES = ['score','olympic','stats'];
+function showPage(p) {
+  document.querySelectorAll('.page').forEach(el=>el.classList.remove('active'));
+  const pg=document.getElementById('page-'+p);
+  if(pg) pg.classList.add('active');
+
+  // スコア中の下部ナビ制御
+  const scoreNav=document.getElementById('score-nav');
+  if(scoreNav) scoreNav.style.display=SCORE_PAGES.includes(p)?'flex':'none';
+
+  // スコアナビのアクティブ制御
+  ['score','olympic','stats'].forEach(key=>{
+    const t=document.getElementById('snav-'+key);
+    if(t) t.classList.toggle('active', key===p);
+  });
+
+  if (p==='home')     {}
+  // ヘッダーのゴルフ場名・編集ボタンはスコア画面のみ表示
+  const hdrCourse=document.getElementById('hdr-course');
+  const editBtn=document.getElementById('edit-round-btn');
+  const isScorePage=p==='score'||p==='olympic'||p==='stats';
+  if(hdrCourse) hdrCourse.style.display=isScorePage?'block':'none';
+  if(editBtn) editBtn.style.display=isScorePage&&G.players.length?'inline-block':'none';
+  if (p==='score')    renderScore();
+  if (p==='olympic')  { renderOlyTbl(); renderOlySummary(); }
+  if (p==='history')  { renderHist(); setTimeout(renderHistChart, 50); }
+  if (p==='stats')    { renderStatChips(); renderStats(); }
+  if (p==='course')   { buildVtbl(); renderGcList(); }
+  if (p==='settings') {}
+  if (p==='players')  { renderPlayerList(); showMyNameDisplay(); }
+}
+
+// ===== パット表示切替 =====
+function togglePutt() {
+  G.showPutt = !G.showPutt;
+  updatePuttBtn();
+  persist();
+  renderScore();
+}
+
+function updatePuttBtn() {
+  const btn = document.getElementById('putt-btn');
+  if (!btn) return;
+  if (G.showPutt) {
+    btn.textContent = '🏌️ パット 表示中';
+    btn.style.borderColor = 'var(--blue)';
+    btn.style.color = '#fff';
+    btn.style.background = 'var(--blue)';
+  } else {
+    btn.textContent = '🏌️ パット 非表示';
+    btn.style.borderColor = 'var(--g3)';
+    btn.style.color = 'var(--g2)';
+    btn.style.background = 'transparent';
+  }
+}
+
+// ===== スコア =====
+function sClass(s, par) {
+  if (s===null) return '';
+  const d=s-par;
+  if (d<=-2) return 'eagle';
+  if (d===-1) return 'birdie';
+  if (d===0)  return 'par';
+  if (d===1)  return 'bogey';
+  if (d===2)  return 'double';
+  return 'triple';
+}
+
+function renderScore() { renderStbl(); renderSummary(); }
+
+function renderStbl() {
+  if (!G.players.length) { document.getElementById('stbl').innerHTML=''; return; }
+  const n=G.players.length, h=G.holes;
+
+  // ヘッダー：プレイヤー名（スコア+オーバー の2列）
+  let html = '<thead>'
+    + '<tr><th class="hcol">H</th>'
+    + '<th style="background:#1a3a2e;color:#fff;min-width:34px;">PAR</th>'
+    + G.players.map(p=>`<th colspan="2" style="min-width:72px;font-size:11px;">${p}</th>`).join('')
+    + '</tr>'
+    + '<tr><th class="hcol"></th><th style="background:#1a3a2e;"></th>'
+    + G.players.map(()=>'<th style="font-size:10px;min-width:44px;">Score</th><th style="font-size:10px;min-width:28px;color:#9b59b6;">±</th>').join('')
+    + '</tr></thead><tbody>';
+
+  function half(start, end, label) {
+    for (let hi=start; hi<end; hi++) {
+      const par = G.pars[hi];
+      // スコア行
+      html += `<tr><td class="hcell" onclick="startHoleVoice(${hi},'score')" style="cursor:pointer;" title="タップで音声入力">${hi+1}<div style="font-size:7px;color:#aaa;line-height:1;">🎤</div></td>`
+        + `<td style="background:#1a3a2e;"><input class="par-inp" type="number" min="3" max="6" value="${par}" oninput="setPar(this,${hi})" onfocus="this.select()"></td>`;
+      for (let pi=0; pi<n; pi++) {
+        const s = G.scores[hi][pi];
+        const ov = s!==null ? s-par : null;
+        const ovStr = ov===null?'':ov===0?'E':ov>0?'+'+ov:''+ov;
+        const ovCol = ov===null?'var(--g2)':ov<0?'#e74c3c':ov===0?'#2ecc71':'#3498db';
+        html += `<td><button class="sc-btn ${sClass(s,par)}" id="sc_${hi}_${pi}" onclick="openScKpad(${hi},${pi})">${s!==null?s:'-'}</button></td>`;
+        html += `<td class="over-cell" id="ov_${hi}_${pi}" style="color:${ovCol};">${ovStr}</td>`;
+      }
+      html += '</tr>';
+      // パット行（showPuttのみ）
+      if (G.showPutt) {
+        html += `<tr class="putt-row"><td class="hcell" style="font-size:9px;color:var(--blue);cursor:pointer;" onclick="startHoleVoice(${hi},'putt')" title="タップで音声入力">P<div style="font-size:7px;color:#aaa;line-height:1;">🎤</div></td><td style="font-size:9px;color:var(--g2);">putt</td>`;
+        for (let pi=0; pi<n; pi++) {
+          const pt = G.putts[hi][pi];
+          html += `<td colspan="2"><button class="pt-btn" id="pt_${hi}_${pi}" onclick="openPtKpad(${hi},${pi})">${pt!==null?pt:'-'}</button></td>`;
+        }
+        html += '</tr>';
+      }
+    }
+    // スコア小計
+    html += `<tr class="sub"><td class="hcell">${label}</td><td>${G.pars.slice(start,end).reduce((a,b)=>a+b,0)}</td>`;
+    for (let pi=0; pi<n; pi++) {
+      const en = G.scores.slice(start,end).filter((r,i)=>r[pi]!==null);
+      const sub = en.length ? en.reduce((a,r)=>a+r[pi],0) : null;
+      // 入力済みホールのPAR合計でオーバー数を計算
+      const parS = G.pars.slice(start,end).reduce((a,b,i)=>
+        G.scores[start+i][pi]!==null ? a+b : a, 0);
+      const ov = sub!==null ? sub-parS : null;
+      const ovStr = ov===null?'-':ov===0?'E':ov>0?'+'+ov:''+ov;
+      // sub行は緑背景: スコア合計(小)・オーバー数(大)とも白で表示
+      const ovCol = ov===null?'#999':ov<0?'#27ae60':ov===0?'#7f8c8d':'#e67e22';
+      html += `<td id="sub_${label}_${pi}" style="font-family:'Oswald',sans-serif;font-size:20px;font-weight:700;color:#fff;background:var(--green);border-radius:4px;">${sub!==null?sub:'-'}</td>`;
+      html += `<td id="subov_${label}_${pi}" style="font-family:'Oswald',sans-serif;font-size:14px;font-weight:700;color:#1a1a1a;">${ovStr}</td>`;
+    }
+    html += '</tr>';
+    // パット小計（showPuttのみ）
+    if (G.showPutt) {
+      html += `<tr class="sub" style="background:#1a1a4a;"><td class="hcell" style="font-size:10px;color:var(--blue);">P</td><td style="font-size:10px;color:var(--g2);">putt</td>`;
+      for (let pi=0; pi<n; pi++) {
+        const en = G.putts.slice(start,end).filter(r=>r[pi]!==null);
+        const sub = en.length ? en.reduce((a,r)=>a+r[pi],0) : null;
+        html += `<td colspan="2" id="psub_${label}_${pi}" style="font-size:13px;color:var(--blue);">${sub!==null?sub:'-'}</td>`;
+      }
+      html += '</tr>';
+    }
+  }
+
+  half(0, Math.min(9,h), '前半');
+  if (h>9) half(9, h, '後半');
+
+  // TOTAL スコア
+  html += '<tr class="tot"><td class="hcell">TOT</td><td>'+G.pars.slice(0,h).reduce((a,b)=>a+b,0)+'</td>';
+  for (let pi=0; pi<n; pi++) {
+    const any = G.scores.some(r=>r[pi]!==null);
+    const tot = G.scores.reduce((a,r)=>a+(r[pi]||0),0);
+    // 入力済みホールのPAR合計でオーバー数を計算
+    const parT = G.pars.slice(0,h).reduce((a,b,i)=>
+      G.scores[i][pi]!==null ? a+b : a, 0);
+    const ov = any ? tot-parT : null;
+    const ovStr = ov===null?'-':ov===0?'E':ov>0?'+'+ov:''+ov;
+    // tot行は暗緑背景: 白で表示
+    const ovCol = ov===null?'#999':ov<0?'#27ae60':ov===0?'#7f8c8d':'#e67e22';
+    html += `<td id="tot_${pi}" style="font-family:'Oswald',sans-serif;font-size:22px;font-weight:700;color:#fff;background:var(--green);border-radius:4px;">${any?tot:'-'}</td>`;
+    html += `<td id="totov_${pi}" style="font-family:'Oswald',sans-serif;font-size:15px;font-weight:700;color:#1a1a1a;">${ovStr}</td>`;
+  }
+  html += '</tr>';
+  // TOTAL パット（showPuttのみ）
+  if (G.showPutt) {
+    html += '<tr class="tot" style="background:#12122a;"><td class="hcell" style="font-size:10px;color:var(--blue);">P</td><td style="font-size:10px;color:var(--g2);">合計</td>';
+    for (let pi=0; pi<n; pi++) {
+      const any = G.putts.some(r=>r[pi]!==null);
+      const tot = G.putts.reduce((a,r)=>a+(r[pi]||0),0);
+      html += `<td colspan="2" id="ptot_${pi}" style="font-size:14px;color:var(--blue);">${any?tot:'-'}</td>`;
+    }
+    html += '</tr>';
+  }
+  html += '</tbody>';
+  document.getElementById('stbl').innerHTML = html;
+}
+
+function setPar(inp, hi) {
+  const v=parseInt(inp.value);
+  if (!isNaN(v)&&v>=1) { G.pars[hi]=v; renderStbl(); renderSummary(); persist(); }
+}
+
+function onSc(inp, hi, pi) {
+  const key=`${hi}_${pi}`;
+  clearTimeout(scoreTimers[key]);
+  const raw=inp.value;
+  if (raw==='') { G.scores[hi][pi]=null; inp.className='sc-inp'; refreshTot(); renderSummary(); persist(); return; }
+  const v=parseInt(raw);
+  if (isNaN(v)) return;
+  if (raw.length>=2||v>=7) { applySc(inp,hi,pi,v); }
+  else { scoreTimers[key]=setTimeout(()=>applySc(inp,hi,pi,parseInt(inp.value)),600); }
+}
+
+function applySc(inp, hi, pi, v) {
+  G.scores[hi][pi] = (!v||v<1) ? null : v;
+  inp.className = 'sc-inp '+sClass(G.scores[hi][pi], G.pars[hi]);
+  // オーバー数セル更新
+  const s=G.scores[hi][pi], par=G.pars[hi];
+  const ov=s!==null?s-par:null;
+  const el=document.getElementById('ov_'+hi+'_'+pi);
+  if (el) {
+    el.textContent=ov===null?'':ov===0?'E':ov>0?'+'+ov:''+ov;
+    el.style.color=ov===null?'var(--g2)':ov<0?'#e74c3c':ov===0?'#2ecc71':'#3498db';
+  }
+  refreshTot(); renderSummary(); persist();
+}
+
+function onPt(inp, hi, pi) {
+  const v=parseInt(inp.value);
+  G.putts[hi][pi] = isNaN(v)||v<0 ? null : v;
+  refreshPuttTot(); persist();
+}
+
+function refreshTot() {
+  const n=G.players.length, h=G.holes, out=Math.min(9,h);
+  for (let pi=0; pi<n; pi++) {
+    const upd=(lbl,s,e)=>{
+      const en=G.scores.slice(s,e).filter(r=>r[pi]!==null);
+      const sub=en.length?en.reduce((a,r)=>a+r[pi],0):null;
+      const parS=G.pars.slice(s,e).reduce((a,b,i)=>
+        G.scores[s+i][pi]!==null?a+b:a,0);
+      const ov=sub!==null?sub-parS:null;
+      const ovStr=ov===null?'-':ov===0?'E':ov>0?'+'+ov:''+ov;
+      const ovCol=ov===null?'var(--g2)':ov<0?'#e74c3c':ov===0?'#2ecc71':'#3498db';
+      const subOvCol=ov===null?'#999':ov<0?'#27ae60':ov===0?'#7f8c8d':'#e67e22';
+      const el=document.getElementById(`sub_${lbl}_${pi}`); if(el){el.textContent=sub!==null?sub:'-';el.style.color='#fff';el.style.background='var(--green)';el.style.borderRadius='4px';el.style.fontSize='20px';el.style.fontFamily="'Oswald',sans-serif";}
+      const oel=document.getElementById(`subov_${lbl}_${pi}`); if(oel){oel.textContent=ovStr;oel.style.color='#1a1a1a';}
+    };
+    upd('前半',0,out);
+    if (h>9) upd('後半',9,h);
+    const any=G.scores.some(r=>r[pi]!==null);
+    const tot=G.scores.reduce((a,r)=>a+(r[pi]||0),0);
+    const parT=G.pars.slice(0,h).reduce((a,b,i)=>
+      G.scores[i][pi]!==null?a+b:a,0);
+    const ov=any?tot-parT:null;
+    const ovStr=ov===null?'-':ov===0?'E':ov>0?'+'+ov:''+ov;
+    const ovCol=ov===null?'var(--g2)':ov<0?'#e74c3c':ov===0?'#2ecc71':'#3498db';
+    const t=document.getElementById('tot_'+pi); if(t) t.textContent=any?tot:'-';
+    const ot=document.getElementById('totov_'+pi); if(ot){ot.textContent=ovStr;ot.style.color=ovCol;}
+  }
+}
+
+function refreshPuttTot() {
+  const n=G.players.length, h=G.holes, out=Math.min(9,h);
+  for (let pi=0; pi<n; pi++) {
+    const calc=(s,e)=>{const en=G.putts.slice(s,e).filter(r=>r[pi]!==null);return en.length?en.reduce((a,r)=>a+r[pi],0):null;};
+    const o=document.getElementById('psub_前半_'+pi); if(o){const v=calc(0,out);o.textContent=v!==null?v:'-';}
+    if(h>9){const i=document.getElementById('psub_後半_'+pi);if(i){const v=calc(9,h);i.textContent=v!==null?v:'-';}}
+    const t=document.getElementById('ptot_'+pi);
+    if(t){const any=G.putts.some(r=>r[pi]!==null);const tot=G.putts.reduce((a,r)=>a+(r[pi]||0),0);t.textContent=any?tot:'-';}
+  }
+}
+
+function renderSummary() {
+  let html='';
+  G.players.forEach((name,pi)=>{
+    const ent=G.scores.map((r,hi)=>({s:r[pi],par:G.pars[hi]})).filter(x=>x.s!==null);
+    const g=ent.reduce((a,x)=>a+x.s,0), p=ent.reduce((a,x)=>a+x.par,0);
+    const d=g-p, any=ent.length>0;
+    const ds=any?(d===0?'E':d>0?'+'+d:''+d):'-';
+    html+=`<div class="ss"><div class="ss-name">${name}</div><div class="ss-g">${any?g:'-'}</div><div class="ss-d">${ds}</div></div>`;
+  });
+  document.getElementById('summary').innerHTML=html;
+}
+
+// ===== オリンピック =====
+function calcOly(row) {
+  const n=row.length;
+  const pts=Array(n).fill(null);
+  // 全員nullなら計算しない
+  if (row.every(v=>v===null)) return pts;
+  // 未入力は0として計算
+  const vals=row.map(v=>v===null?0:v);
+  for(let pi=0;pi<n;pi++){
+    const oth=vals.filter((_,i)=>i!==pi);
+    pts[pi]=vals[pi]*oth.length-oth.reduce((a,b)=>a+b,0);
+  }
+  return pts;
+}
+function subPts(s,e,pi){
+  let t=0,any=false;
+  for(let hi=s;hi<e;hi++){
+    const p=calcOly(G.oly[hi]);
+    if(p[pi]!==null){t+=p[pi];any=true;}
+  }
+  return any?t:null;
+}
+function fp(v){
+  // テーブル内：下2桁省略（例：¥1,400→¥14）
+  if(v===null) return '<span class="pn">-</span>';
+  const unit=parseInt(document.getElementById('unit-price')?.value)||100;
+  const yen=(-v)*unit;
+  if(v===0) return '<span class="pz">0</span>';
+  const short=Math.round(yen/100); // 下2桁省略
+  return yen>0
+    ? `<span class="pm">-¥${short}</span>`
+    : `<span class="pp">+¥${(-short)}</span>`;
+}
+
+function fpFull(v, unit){
+  // 順位・収支テーブル用：省略なし
+  if(v===null) return '<span style="color:var(--g2)">-</span>';
+  const yen=(-v)*unit;
+  if(v===0) return '<span style="color:var(--g2)">0円</span>';
+  return yen>0
+    ? `<span class="pm">-¥${yen.toLocaleString()}</span>`
+    : `<span class="pp">+¥${(-yen).toLocaleString()}</span>`;
+}
+
+function renderOlyTbl() {
+  if (!G.players.length){document.getElementById('otbl').innerHTML='';return;}
+  const n=G.players.length, h=G.holes;
+  // ヘッダー：H列 + プレイヤースコア列 + プレイヤーpt列
+  let html='<thead><tr><th class="hcol">H</th>'
+    +G.players.map(p=>`<th style="font-size:10px;min-width:44px;">${p}</th>`).join('')
+    +G.players.map(p=>`<th style="font-size:10px;background:#d5e8d4;color:#1a1a1a;min-width:44px;">${p}<br>¥</th>`).join('')
+    +'</tr></thead><tbody>';
+  function half(s,e,lbl){
+    for(let hi=s;hi<e;hi++){
+      const row=G.oly[hi], pts=calcOly(row);
+      html+=`<tr><td class="hcell" style="min-width:24px;font-size:12px;">${hi+1}</td>`;
+      for(let pi=0;pi<n;pi++){
+        const v=row[pi], cls=v!==null?(v<0?'neg':'pos'):'';
+        html+=`<td><button class="oi-btn ${cls}" id="oi_${hi}_${pi}" onclick="openKpad(${hi},${pi})">${v!==null?v:'−'}</button></td>`;
+      }
+      for(let pi=0;pi<n;pi++) html+=`<td id="op_${hi}_${pi}">${fp(pts[pi])}</td>`;
+      html+='</tr>';
+    }
+    // スコア小計（入力値の合計）
+    const scSub=Array(n).fill(0).map((_,pi)=>{
+      let t=0,any=false;
+      for(let hi=s;hi<e;hi++){const v=G.oly[hi][pi];if(v!==null){t+=v;any=true;}}
+      return any?t:null;
+    });
+    html+=`<tr class="osub"><td class="hcell">${lbl}</td>`
+      +scSub.map(v=>`<td style="font-weight:700;color:#1a1a1a;font-size:14px;">${v!==null?v:'-'}</td>`).join('')
+      +G.players.map((_,pi)=>`<td id="os_${lbl}_${pi}">${fp(subPts(s,e,pi))}</td>`).join('')
+      +'</tr>';
+  }
+  half(0,Math.min(9,h),'前半');
+  if(h>9) half(9,h,'後半');
+  // TOTスコア合計
+  const scTot=Array(n).fill(0).map((_,pi)=>{
+    let t=0,any=false;
+    for(let hi=0;hi<h;hi++){const v=G.oly[hi][pi];if(v!==null){t+=v;any=true;}}
+    return any?t:null;
+  });
+  html+='<tr class="otot"><td class="hcell">TOT</td>'
+    +scTot.map(v=>`<td style="font-weight:700;color:#1a1a1a;font-size:15px;">${v!==null?v:'-'}</td>`).join('')
+    +G.players.map((_,pi)=>`<td id="ot_${pi}">${fp(subPts(0,h,pi))}</td>`).join('')
+    +'</tr></tbody>';
+  document.getElementById('otbl').innerHTML=html;
+}
+
+function onOly(inp,hi,pi){
+  const raw=inp.value.trim();
+  const key=`${hi}_${pi}`;
+  clearTimeout(olyTimers[key]);
+  // 空欄
+  if(raw===''){ G.oly[hi][pi]=null; applyOly(inp,hi,pi); return; }
+  // "-"だけ入力中：タイマー待機してそのまま
+  if(raw==='-'){ olyTimers[key]=setTimeout(()=>applyOly(inp,hi,pi),2000); return; }
+  const n=parseInt(raw);
+  if(isNaN(n)) return;
+  // 絶対値が2桁以上はすぐ確定、1桁は1.5秒待機
+  if(String(Math.abs(n)).length>=2){
+    applyOly(inp,hi,pi);
+  } else {
+    olyTimers[key]=setTimeout(()=>applyOly(inp,hi,pi),1500);
+  }
+}
+
+function applyOly(inp,hi,pi){
+  const raw=inp.value;
+  if(raw===''){ G.oly[hi][pi]=null; }
+  else {
+    const n=parseInt(raw);
+    G.oly[hi][pi]=isNaN(n)?null:n;
+  }
+  const s=G.oly[hi][pi];
+  inp.className='oi '+(s===null?'':(s<0?'neg':'pos'));
+  const pts=calcOly(G.oly[hi]);
+  G.players.forEach((_,p)=>{const el=document.getElementById(`op_${hi}_${p}`);if(el)el.innerHTML=fp(pts[p]);});
+  refreshOlySubs(); renderOlySummary(); persist();
+}
+
+function refreshOlySubs(){
+  const n=G.players.length,h=G.holes,out=Math.min(9,h);
+  for(let pi=0;pi<n;pi++){
+    const o=document.getElementById('os_前半_'+pi);if(o)o.innerHTML=fp(subPts(0,out,pi));
+    if(h>9){const i=document.getElementById('os_後半_'+pi);if(i)i.innerHTML=fp(subPts(9,h,pi));}
+    const t=document.getElementById('ot_'+pi);if(t)t.innerHTML=fp(subPts(0,h,pi));
+  }
+  // スコア合計セルも更新（osub/otot行の最初の列）
+  renderOlyTbl();
+}
+
+function renderOlySummary(){
+  const unit=parseInt(document.getElementById('unit-price').value)||100;
+  const n=G.players.length,h=G.holes,out=Math.min(9,h);
+  const tots=G.players.map((_,pi)=>subPts(0,h,pi));
+  const ranked=tots.map((p,i)=>({i,p})).sort((a,b)=>{if(a.p===null&&b.p===null)return 0;if(a.p===null)return 1;if(b.p===null)return -1;return a.p-b.p;});
+  const fpp=v=>fpFull(v,unit);
+  let html='<thead><tr><th>順位</th><th class="pnm">プレイヤー</th><th>OUT</th>'+(h>9?'<th>IN</th>':'')+'<th>合計</th><th>収支</th></tr></thead><tbody>';
+  ranked.forEach(({i:pi},rank)=>{
+    const badge=rank<3?`<span class="rb r${rank+1}">${rank+1}</span>`:rank+1;
+    const tot=tots[pi],m=tot!==null?(-tot)*unit:null;
+    const ms=m===null?'-':m>=0?`<span class="pp">+¥${m.toLocaleString()}</span>`:`<span class="pm">¥${m.toLocaleString()}</span>`;
+    html+=`<tr><td>${badge}</td><td class="pnm">${G.players[pi]}</td><td>${fpp(subPts(0,out,pi))}</td>${h>9?`<td>${fpp(subPts(9,h,pi))}</td>`:''}<td style="font-weight:700;">${fpp(tot)}</td><td style="font-weight:700;">${ms}</td></tr>`;
+  });
+  document.getElementById('rtbl').innerHTML=html+'</tbody>';
+}
+
+// ===== 履歴 =====
+let histSortMode = 'new';
+
+function setHistSort(mode){
+  histSortMode = mode;
+  document.querySelectorAll('.hist-sort-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('hsort-'+mode)?.classList.add('active');
+  renderHist();
+}
+
+function parseHistDate(dateStr){
+  // 「2026年3月28日（土）」→ソート可能な数値（YYYYMMDD）に変換
+  if(!dateStr) return 0;
+  const m = dateStr.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  if(!m) return 0;
+  return parseInt(m[1]) * 10000 + parseInt(m[2]) * 100 + parseInt(m[3]);
+}
+
+function getSortedHistory(){
+  const list = [...G.history];
+  if(histSortMode === 'new'){
+    return list.sort((a,b) => parseHistDate(b.date) - parseHistDate(a.date));
+  } else if(histSortMode === 'old'){
+    return list.sort((a,b) => parseHistDate(a.date) - parseHistDate(b.date));
+  } else if(histSortMode === 'score'){
+    return list.sort((a,b)=>{
+      const getScore = r => {
+        const p0 = r.scores.map(row=>row[0]);
+        const any = p0.some(s=>s!==null);
+        return any ? p0.reduce((s,v)=>s+(v||0),0) : 9999;
+      };
+      return getScore(a) - getScore(b);
+    });
+  }
+  return list.sort((a,b) => parseHistDate(b.date) - parseHistDate(a.date));
+}
+
+function renderHist(){
+  const el=document.getElementById('hist-list');
+  if(!G.history.length){el.innerHTML='<div class="empty"><div style="font-size:40px;margin-bottom:8px;">📋</div><div>履歴がありません</div></div>';return;}
+  el.innerHTML=getSortedHistory().map(r=>{
+    const p0=r.scores.map(row=>row[0]);
+    const g=p0.reduce((a,s)=>a+(s||0),0),any=p0.some(s=>s!==null);
+    const puttTot=r.putts?r.putts.reduce((a,row)=>a+(row[0]||0),0):0;
+    const pt=r.pars.reduce((a,b)=>a+b,0),d=g-pt;
+    const saved=r.savedAt?new Date(r.savedAt).toLocaleString('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}):'';
+    return `<div class="rc">
+      <div class="rch"><div class="rct">${r.course||'（未設定）'}</div><div class="rcd">${r.date}</div></div>
+      <div class="rcb">
+        <div class="rst"><div class="rsv">${any?g:'-'}</div><div class="rsl">${r.players[0]||'P1'} グロス</div></div>
+        <div class="rst"><div class="rsv">${puttTot>0?puttTot:'-'}</div><div class="rsl">パット数</div></div>
+        <div class="rst"><div class="rsv" style="font-size:26px;">${r.weather||'－'}</div><div class="rsl">天気</div></div>
+        <div class="rca">
+          <button class="bsm bsm-g" onclick="loadEntry(${r.id})">📂</button>
+          <button class="bsm bsm-r" onclick="delEntry(${r.id})">🗑️</button>
+        </div>
+      </div>
+      ${saved?`<div class="rcs">保存：${saved}</div>`:''}
+    </div>`;
+  }).join('');
+}
+
+// ===== 統計 =====
+function renderStatChips(){
+  document.getElementById('stat-chips').innerHTML=G.players.map((p,i)=>
+    `<div class="chip ${i===G.statsP?'active':''}" onclick="selSP(${i})">${p}</div>`).join('');
+}
+function selSP(i){G.statsP=i;renderStatChips();renderStats();}
+function renderStats(){
+  const pi=G.statsP;
+  let eagle=0,birdie=0,par=0,bogey=0,dbl=0,triple=0;
+  G.scores.forEach((row,hi)=>{
+    const s=row[pi];if(s===null)return;
+    const d=s-G.pars[hi];
+    if(d<=-2)eagle++;else if(d===-1)birdie++;else if(d===0)par++;else if(d===1)bogey++;else if(d===2)dbl++;else triple++;
+  });
+  const max=Math.max(eagle,birdie,par,bogey,dbl,triple,1);
+  document.getElementById('stat-bar').innerHTML=[
+    {l:'Eagle\n以下',v:eagle,c:'#f39c12'},{l:'Birdie',v:birdie,c:'#e74c3c'},
+    {l:'Par',v:par,c:'#2ecc71'},{l:'Bogey',v:bogey,c:'#3498db'},
+    {l:'Dbl',v:dbl,c:'#9b59b6'},{l:'Triple+',v:triple,c:'#c0392b'},
+  ].map(b=>`<div class="bi"><div class="bv" style="color:${b.c}">${b.v||''}</div><div class="bf" style="height:${b.v/max*50}px;background:${b.c}"></div><div class="bl">${b.l}</div></div>`).join('');
+  const g=G.scores.reduce((a,r)=>a+(r[pi]||0),0),any=G.scores.some(r=>r[pi]!==null);
+  const putt=G.putts.reduce((a,r)=>a+(r[pi]||0),0),pany=G.putts.some(r=>r[pi]!==null);
+  const played=eagle+birdie+par+bogey+dbl+triple;
+  document.getElementById('stat-grid').innerHTML=`
+    <div class="sbox"><div class="sv">${any?g:'-'}</div><div class="sl">グロス</div></div>
+    <div class="sbox"><div class="sv">${played?Math.round(g/played*10)/10:'-'}</div><div class="sl">平均</div></div>
+    <div class="sbox"><div class="sv">${par+birdie+eagle}</div><div class="sl">パー以下</div></div>
+    <div class="sbox"><div class="sv">${bogey}</div><div class="sl">ボギー</div></div>
+    <div class="sbox"><div class="sv">${dbl}</div><div class="sl">ダブル</div></div>
+    <div class="sbox"><div class="sv">${pany?putt:'-'}</div><div class="sl">パット</div></div>`;
+  let det='<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:12px;">'
+    +'<tr style="background:var(--green);"><th style="padding:5px 8px;">H</th><th>PAR</th><th>Score</th><th>±</th></tr>';
+  G.scores.forEach((row,hi)=>{
+    const s=row[pi];if(s===null)return;
+    const d=s-G.pars[hi],ds=d===0?'E':d>0?'+'+d:''+d;
+    const cols={eagle:'#f39c12',birdie:'#e74c3c',par:'#2ecc71',bogey:'#3498db',double:'#9b59b6',triple:'#c0392b'};
+    det+=`<tr style="border-bottom:1px solid var(--bg3);">
+      <td style="padding:5px 8px;text-align:center;">${hi+1}</td>
+      <td style="text-align:center;">${G.pars[hi]}</td>
+      <td style="text-align:center;font-family:'Oswald',sans-serif;font-size:16px;font-weight:700;color:${cols[sClass(s,G.pars[hi])]||'#fff'}">${s}</td>
+      <td style="text-align:center;font-weight:700;color:${d<0?'#e74c3c':d>0?'#3498db':'#2ecc71'}">${ds}</td>
+    </tr>`;
+  });
+  document.getElementById('stat-detail').innerHTML=det+'</table></div>';
+}
+
+// ===== ゴルフ場登録 =====
+function getCourses(){try{return JSON.parse(localStorage.getItem(CKEY)||'{}');}catch(e){return {};}}
+function setCourses(obj){localStorage.setItem(CKEY,JSON.stringify(obj));}
+
+// cfCoursesは登録フォームで一時保持するコース配列
+// [{name:'OUT', pars:[4,4,4,4,4,4,4,4,4]}, ...]
+let cfCourses = [];
+
+function buildVtbl(){
+  // 初期コース2つで開始
+  cfCourses=[
+    {name:'OUT', pars:Array(9).fill(4)},
+    {name:'IN',  pars:Array(9).fill(4)},
+  ];
+  renderCfCourses();
+}
+
+function addCfCourse(){
+  cfCourses.push({name:'', pars:Array(9).fill(4)});
+  renderCfCourses();
+  // 追加されたコースまでスクロール
+  setTimeout(()=>{
+    const area=document.getElementById('cf-courses-area');
+    if(area) area.lastElementChild?.scrollIntoView({behavior:'smooth'});
+  },100);
+}
+
+function removeCfCourse(idx){
+  if(cfCourses.length<=1){toast('コースは1つ以上必要です');return;}
+  cfCourses.splice(idx,1);
+  renderCfCourses();
+}
+
+function renderCfCourses(){
+  const area=document.getElementById('cf-courses-area');
+  if(!area) return;
+  const rowBg=['#ffffff','#ffffff','#ffffff','#e8f5ed','#e8f5ed','#e8f5ed','#ffffff','#ffffff','#ffffff'];
+  area.innerHTML=cfCourses.map((c,ci)=>{
+    const rows=c.pars.map((p,hi)=>{
+      return `<tr>
+        <td style="color:var(--green);font-weight:700;text-align:left;padding-left:10px;background:${rowBg[hi]};">H${hi+1}</td>
+        <td style="background:${rowBg[hi]};"><input class="cpi" type="number" min="3" max="6" value="${p}"
+          oninput="cfSetPar(${ci},${hi},this.value)"></td>
+      </tr>`;
+    }).join('');
+    const sum=c.pars.reduce((a,b)=>a+b,0);
+    return `<div style="background:#f8f9fa;border:1px solid #ddd;border-radius:8px;padding:10px;margin-bottom:10px;">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+        <div style="font-size:12px;color:var(--green);font-weight:600;flex:1;">コース ${ci+1}</div>
+        ${cfCourses.length>1?`<button class="bsm bsm-r" onclick="removeCfCourse(${ci})">✕ 削除</button>`:''}
+      </div>
+      <label class="flbl">コース名</label>
+      <input class="fi" type="text" value="${c.name}" placeholder="例：OUT、東コース"
+        oninput="cfSetName(${ci},this.value)" style="margin-bottom:8px;">
+      <table class="vtbl">
+        <thead><tr><th>ホール</th><th>PAR</th></tr></thead>
+        <tbody>${rows}</tbody>
+        <tfoot><tr>
+          <td style="text-align:right;padding-right:8px;">計</td>
+          <td id="cf-sum-${ci}">${sum}</td>
+        </tr></tfoot>
+      </table>
+    </div>`;
+  }).join('');
+}
+
+function cfSetName(ci,val){
+  if(cfCourses[ci]) cfCourses[ci].name=val;
+}
+
+function cfSetPar(ci,hi,val){
+  if(cfCourses[ci]){
+    cfCourses[ci].pars[hi]=parseInt(val)||4;
+    const sumEl=document.getElementById('cf-sum-'+ci);
+    if(sumEl) sumEl.textContent=cfCourses[ci].pars.reduce((a,b)=>a+b,0);
+  }
+}
+
+function calcCfSum(){} // 旧関数（互換性のため残す）
+
+function saveCourse(){
+  const club=document.getElementById('cf-name').value.trim();
+  if(!club){toast('ゴルフ場名を入力してください');return;}
+  if(!cfCourses.length){toast('コースを1つ以上追加してください');return;}
+  const cs=getCourses();
+  if(!cs[club]) cs[club]={};
+  cfCourses.forEach((c,i)=>{
+    const name=c.name.trim()||(i===0?'OUT':i===1?'IN':'コース'+(i+1));
+    cs[club][name]=c.pars;
+  });
+  setCourses(cs);
+  renderGcList();
+  populateClubSel();
+  toast('💾「'+club+'」を保存しました');
+}
+
+function resetCf(){
+  document.getElementById('cf-name').value='';
+  document.getElementById('cf-ttl').textContent='新規登録';
+  buildVtbl();
+}
+
+function editGc(club){
+  const cs=getCourses();
+  const c=cs[club];if(!c)return;
+  document.getElementById('cf-name').value=club;
+  document.getElementById('cf-ttl').textContent='編集：'+club;
+  // 既存コースをcfCoursesにロード
+  cfCourses=Object.entries(c).map(([name,pars])=>({name,pars:[...pars]}));
+  showPage('course');
+  setTimeout(()=>renderCfCourses(),100);
+}
+
+function delGc(club){
+  if(!confirm('「'+club+'」を削除しますか？'))return;
+  const cs=getCourses();delete cs[club];setCourses(cs);renderGcList();toast('🗑️ 削除しました');
+}
+
+function renderGcList(){
+  const el=document.getElementById('gc-list');
+  const cs=getCourses(),clubs=Object.keys(cs);
+  if(!clubs.length){el.innerHTML='<div class="empty"><div style="font-size:40px;margin-bottom:8px;">⛳</div><div>登録済みゴルフ場がありません</div></div>';return;}
+  el.innerHTML=clubs.map(club=>{
+    const c=cs[club];
+    const cards=Object.keys(c).map(cn=>{
+      const pars=c[cn],sum=pars.reduce((a,b)=>a+b,0);
+      const cells=pars.map((p,i)=>`<div class="gpc"><div class="gpnl">${i+1}</div><div class="gpv">${p}</div></div>`).join('');
+      return `<div class="gccr"><div style="font-weight:600;font-size:13px;color:var(--gold);margin-bottom:4px;">🏌️ ${cn}</div><div class="gpr">${cells}</div><div class="gsub">計：${sum}</div></div>`;
+    }).join('');
+    const sc=club.replace(/'/g,"\\'");
+    return `<div class="gcc"><div class="gcch"><div class="gccn">⛳ ${club}</div><div style="display:flex;gap:5px;"><button class="bsm bsm-g" onclick="editGc('${sc}')">✏️</button><button class="bsm bsm-r" onclick="delGc('${sc}')">🗑️</button></div></div>${cards}</div>`;
+  }).join('');
+}
+
+// ===== 新規ラウンド =====
+function populateClubSel(){
+  const sel=document.getElementById('sel-club');
+  const cs=getCourses();
+  sel.innerHTML='<option value="">-- ゴルフ場を選択 --</option>'
+    +Object.keys(cs).map(n=>`<option value="${n}">${n}</option>`).join('')
+    +'<option value="__manual__">✏️ 直接入力する</option>';
+}
+
+function onCourseManualInput(){
+  // 手入力時はコース選択をリセット
+  document.getElementById('sel-club').value='';
+  document.getElementById('sel-out').innerHTML='<option value="">-- 前半コース --</option>';
+  document.getElementById('sel-in').innerHTML='<option value="">-- 後半コース --</option>';
+  G.pars=[...DPARS];
+}
+
+function onClubChange(){
+  const club=document.getElementById('sel-club').value;
+  const sOut=document.getElementById('sel-out');
+  const sIn =document.getElementById('sel-in');
+  const manualInp=document.getElementById('new-course');
+  G.pars=[...DPARS];
+
+  // 直接入力モード
+  if(club==='__manual__'){
+    manualInp.style.display='block';
+    manualInp.value='';
+    manualInp.focus();
+    sOut.innerHTML='<option value="">-- 前半コース --</option>';
+    sIn.innerHTML ='<option value="">-- 後半コース --</option>';
+    return;
+  }
+  manualInp.style.display='none';
+  manualInp.value=club;
+
+  if(!club){
+    sOut.innerHTML='<option value="">-- 前半コース --</option>';
+    sIn.innerHTML ='<option value="">-- 後半コース --</option>';
+    return;
+  }
+  const cs=getCourses(),c=cs[club];
+  if(!c)return;
+  const names=Object.keys(c);
+  const opts='<option value="">-- 選択 --</option>'+names.map(n=>`<option value="${n}">${n}</option>`).join('');
+  sOut.innerHTML=opts; sIn.innerHTML=opts;
+  if(names.length>=1){sOut.value=names[0];}
+  if(names.length>=2){sIn.value=names[1];}
+  onCourseChange();
+}
+
+function onCourseChange(){
+  const club=document.getElementById('sel-club').value;
+  const outN=document.getElementById('sel-out').value;
+  const inN =document.getElementById('sel-in').value;
+  if(!club)return;
+  const cs=getCourses(),c=cs[club];if(!c)return;
+  const outP=(outN&&c[outN])?c[outN]:Array(9).fill(4);
+  const inP =(inN &&c[inN]) ?c[inN] :Array(9).fill(4);
+  G.pars=[...outP.slice(0,9),...inP.slice(0,9)];
+  const txt=[outN,inN].filter(Boolean).join('/');
+  if(club) document.getElementById('new-course').value=club; // コース名は表示しない
+}
+
+function openNewRound(){
+  const _myName=getMyName();
+  selectedPlayers=[_myName||'','','',''];
+  renderPlayerSlots();
+  // 天気リセット
+  document.querySelectorAll('.weather-btn').forEach(b=>b.classList.remove('selected'));
+  const firstWBtn=document.querySelector('.weather-btn');
+  if(firstWBtn){firstWBtn.classList.add('selected');}
+  const nw=document.getElementById('new-weather');
+  if(nw) nw.value='';
+  populateClubSel();
+  document.getElementById('new-date').value=new Date().toISOString().split('T')[0];
+  document.getElementById('sel-club').value='';
+  document.getElementById('new-course').value='';
+  document.getElementById('new-course').style.display='none';
+  document.getElementById('sel-out').innerHTML='<option value="">-- 前半コース --</option>';
+  document.getElementById('sel-in').innerHTML ='<option value="">-- 後半コース --</option>';
+  G.pars=[...DPARS];
+  document.getElementById('modal-new').classList.add('open');
+}
+
+async function createRound(){
+  const course=document.getElementById('new-course').value.trim()||'（未設定）';
+  const dateRaw=document.getElementById('new-date').value;
+  const holes=parseInt(document.getElementById('new-holes').value);
+  const players=getPlayerNames();
+  if(!players.length){toast('プレイヤーを入力してください');return;}
+  // 未登録プレイヤーを確認して登録するか尋ねる
+  const registered=getPlayers();
+  for(const name of players){
+    if(!registered.includes(name)){
+      const yes=confirm('「'+name+'」はプレイヤー登録されていません。\n登録しますか？');
+      if(yes){
+        registered.push(name);
+        setPlayers(registered);
+        toast('👤「'+name+'」を登録しました');
+      }
+    }
+  }
+  // PARを確定
+  onCourseChange();
+  const pars=G.pars&&G.pars.length>=holes?G.pars.slice(0,holes):[...DPARS].slice(0,holes);
+  const weather=document.getElementById('new-weather')?.value||'';
+  // 新規ラウンドなので履歴に戻るボタンを非表示
+  const _backBtn=document.getElementById('snav-back-hist');
+  if(_backBtn) _backBtn.style.display='none';
+  G.id=null; G.course=course; G.date=dateRaw?fmtDate(dateRaw):'-'; G.weather=weather;
+  G.holes=holes; G.players=players; G.pars=pars; G.statsP=0;
+  initData();
+  const hc=document.getElementById('hdr-course-name');
+  const hd=document.getElementById('hdr-course-date');
+  if(hc) hc.textContent=G.course;
+  if(hd) hd.textContent=G.date;
+  document.getElementById('modal-new').classList.remove('open');
+  renderScore(); showPage('score');
+  toast('ラウンドを作成しました ⛳');
+  persist();
+}
+
+// ===== UTILS =====
+function fmtDate(s){
+  const d=new Date(s+'T00:00:00');
+  const days=['日','月','火','水','木','金','土'];
+  return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${days[d.getDay()]}）`;
+}
+function toast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2500);
+}
+
+
+// ===== カスタムキーパッド =====
+let kpadHi=-1, kpadPi=-1, kpadVal='', kpadMode='oly', kpadScHi=-1, kpadScPi=-1;
+
+function openKpad(hi,pi){
+  kpadMode='oly';
+  kpadHi=hi; kpadPi=pi;
+  const cur=G.oly[hi][pi];
+  kpadVal=cur!==null?String(cur):'';
+  const p=G.players[pi]||('P'+(pi+1));
+  document.getElementById('kpad-label').textContent=`H${hi+1} ${p}`;
+  kpadRefresh();
+  document.getElementById('kpad-modal').classList.add('open');
+}
+
+function kpadRefresh(){
+  const d=document.getElementById('kpad-display');
+  d.textContent=kpadVal===''?'−':kpadVal;
+  d.style.color=kpadVal.startsWith('-')?'#e74c3c':'#1a1a1a';
+}
+
+function kpadPress(n){
+  if(kpadMode==='score'||kpadMode==='putt'){
+    // スコア・パットはプラスのみ、2桁まで
+    if(kpadVal.length>=2) return;
+    kpadVal+=String(n);
+  } else {
+    if(kpadVal===''||kpadVal==='-'){
+      kpadVal=(kpadVal==='-'?'-':'')+String(n);
+    } else {
+      if(Math.abs(parseInt(kpadVal+n))<1000) kpadVal+=String(n);
+    }
+  }
+  kpadRefresh();
+}
+
+function kpadSign(){
+  if(kpadMode==='score'||kpadMode==='putt') return; // スコア・パットは符号なし
+  if(kpadVal===''){ kpadVal='-'; }
+  else if(kpadVal==='-'){ kpadVal=''; }
+  else { kpadVal=kpadVal.startsWith('-')?kpadVal.slice(1):'-'+kpadVal; }
+  kpadRefresh();
+}
+
+function kpadDel(){
+  kpadVal=kpadVal.slice(0,-1);
+  kpadRefresh();
+}
+
+function kpadClear(){
+  kpadVal='';
+  kpadRefresh();
+}
+
+function kpadOk(){
+  document.getElementById('kpad-modal').classList.remove('open');
+  if(kpadMode==='oly'){
+    const hi=kpadHi, pi=kpadPi;
+    const n=kpadVal===''||kpadVal==='-'?null:parseInt(kpadVal);
+    G.oly[hi][pi]=isNaN(n)?null:n;
+    const btn=document.getElementById('oi_'+hi+'_'+pi);
+    if(btn){
+      btn.textContent=G.oly[hi][pi]!==null?G.oly[hi][pi]:'−';
+      btn.className='oi-btn '+(G.oly[hi][pi]===null?'':G.oly[hi][pi]<0?'neg':'pos');
+    }
+    const pts=calcOly(G.oly[hi]);
+    G.players.forEach((_,p)=>{const el=document.getElementById('op_'+hi+'_'+p);if(el)el.innerHTML=fp(pts[p]);});
+    refreshOlySubs(); renderOlySummary(); persist();
+  } else if(kpadMode==='score'){
+    const hi=kpadScHi, pi=kpadScPi;
+    const v=kpadVal===''?null:parseInt(kpadVal);
+    G.scores[hi][pi]=(isNaN(v)||v<1)?null:v;
+    const par=G.pars[hi];
+    const btn=document.getElementById('sc_'+hi+'_'+pi);
+    if(btn){
+      btn.textContent=G.scores[hi][pi]!==null?G.scores[hi][pi]:'-';
+      btn.className='sc-btn '+sClass(G.scores[hi][pi],par);
+    }
+    // オーバー数更新
+    const s=G.scores[hi][pi];
+    const ov=s!==null?s-par:null;
+    const el=document.getElementById('ov_'+hi+'_'+pi);
+    if(el){
+      el.textContent=ov===null?'':ov===0?'E':ov>0?'+'+ov:''+ov;
+      el.style.color=ov===null?'var(--g2)':ov<0?'#e74c3c':ov===0?'#2ecc71':'#3498db';
+    }
+    refreshTot(); renderSummary(); persist();
+  } else if(kpadMode==='putt'){
+    const hi=kpadScHi, pi=kpadScPi;
+    const v=kpadVal===''?null:parseInt(kpadVal);
+    G.putts[hi][pi]=(isNaN(v)||v<0)?null:v;
+    const btn=document.getElementById('pt_'+hi+'_'+pi);
+    if(btn) btn.textContent=G.putts[hi][pi]!==null?G.putts[hi][pi]:'-';
+    refreshPuttTot(); persist();
+  }
+}
+
+
+// ===== スコア用キーパッド =====
+
+function openScKpad(hi,pi){
+  kpadMode='score';
+  kpadScHi=hi; kpadScPi=pi;
+  const p=G.players[pi]||('P'+(pi+1));
+  const cur=G.scores[hi][pi];
+  document.getElementById('kpad-label').textContent=`H${hi+1} ${p} スコア`;
+  kpadVal=cur!==null?String(cur):'';
+  kpadRefresh();
+  document.getElementById('kpad-modal').classList.add('open');
+}
+
+function openPtKpad(hi,pi){
+  kpadMode='putt';
+  kpadScHi=hi; kpadScPi=pi;
+  const p=G.players[pi]||('P'+(pi+1));
+  const cur=G.putts[hi][pi];
+  document.getElementById('kpad-label').textContent=`H${hi+1} ${p} パット数`;
+  kpadVal=cur!==null?String(cur):'';
+  kpadRefresh();
+  document.getElementById('kpad-modal').classList.add('open');
+}
+
+
+// ===== プレイヤー登録 =====
+const PKEY = 'golympic_players_v1';
+const MYKEY = 'golympic_myname_v1';
+function getPlayers(){ try{return JSON.parse(localStorage.getItem(PKEY)||'[]');}catch(e){return [];} }
+function setPlayers(arr){ localStorage.setItem(PKEY, JSON.stringify(arr)); }
+function getMyName(){ return localStorage.getItem(MYKEY)||''; }
+function setMyName(name){ localStorage.setItem(MYKEY, name); }
+function sortPlayers(list){ return [...list].sort((a,b)=>a.localeCompare(b,'ja')); }
+
+function addPlayer(){
+  const inp=document.getElementById('new-player-name');
+  const name=inp.value.trim();
+  if(!name){ toast('名前を入力してください'); return; }
+  const list=getPlayers();
+  if(list.includes(name)){ toast('すでに登録されています'); return; }
+  list.push(name);
+  setPlayers(sortPlayers(list));
+  inp.value='';
+  renderPlayerList();
+  toast('👤「'+name+'」を登録しました');
+}
+
+function deletePlayer(name){
+  if(!confirm('「'+name+'」を削除しますか？')) return;
+  const list=getPlayers().filter(p=>p!==name);
+  setPlayers(list);
+  renderPlayerList();
+  toast('🗑️ 削除しました');
+}
+
+function editPlayerName(idx){
+  const list=getPlayers();
+  const oldName=list[idx];
+  const newName=prompt('名前を編集してください', oldName);
+  if(!newName||newName.trim()===oldName) return;
+  const trimmed=newName.trim();
+  if(list.includes(trimmed)){ toast('その名前はすでに登録されています'); return; }
+  list[idx]=trimmed;
+  setPlayers(sortPlayers(list));
+  renderPlayerList();
+  toast('✏️ 名前を変更しました');
+}
+
+function renderPlayerList(){
+  const el=document.getElementById('player-list');
+  if(!el) return;
+  const list=getPlayers();
+  if(!list.length){
+    el.innerHTML='<div class="empty"><div style="font-size:40px;margin-bottom:8px;">👤</div><div>登録済みプレイヤーがいません</div></div>';
+    return;
+  }
+  el.innerHTML=list.map((name,i)=>`
+    <div class="rc" style="margin-bottom:8px;">
+      <div style="display:flex;align-items:center;padding:12px 14px;gap:10px;">
+        <div style="width:32px;height:32px;border-radius:50%;background:var(--green);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:'Oswald',sans-serif;font-size:14px;flex-shrink:0;">${i+1}</div>
+        <div style="flex:1;font-weight:600;font-size:15px;">${name}</div>
+        <button class="bsm" onclick="editPlayerName(${i})" style="background:#e8f5ed;color:var(--green);border:1px solid var(--green);margin-right:4px;">✏️</button>
+        <button class="bsm bsm-r" onclick="deletePlayer('${name.replace(/'/g,"\'")}')">🗑️</button>
+      </div>
+    </div>`).join('');
+}
+
+// ===== 新規ラウンド プレイヤースロット =====
+let selectedPlayers=['','','',''];
+
+function renderPlayerSlots(){
+  const area=document.getElementById('player-slots');
+  if(!area) return;
+  const myName=getMyName();
+  // 自分の名前を先頭に、残りは50音順
+  const allPlayers=[
+    ...(myName?[myName]:[]),
+    ...sortPlayers(getPlayers().filter(p=>p!==myName))
+  ];
+  let html='';
+  for(let i=0;i<4;i++){
+    const sel=selectedPlayers[i];
+    const usedByOthers=selectedPlayers.filter((_,j)=>j!==i&&_&&_!=='');
+    const available=allPlayers.filter(p=>!usedByOthers.includes(p));
+    const isManual=sel.startsWith('__manual__');
+    const manualVal=isManual?sel.replace('__manual__:',''):'';
+    html+=`<div style="margin-bottom:10px;">
+      <label class="flbl">プレイヤー${i+1}</label>
+      <select class="fsel" id="p${i}" onchange="onPlayerSelect(${i},this.value)" style="margin-bottom:0;">
+        <option value="">-- 選択してください --</option>
+        ${available.map(p=>`<option value="${p}"${(!isManual&&sel===p)?' selected':''}>${p}</option>`).join('')}
+        <option value="__manual__"${isManual?' selected':''}>✏️ 直接入力する</option>
+      </select>
+      <input class="fi" type="text" id="pm${i}" placeholder="名前を入力"
+        style="display:${isManual?'block':'none'};margin-top:4px;margin-bottom:0;"
+        value="${manualVal}" oninput="onPlayerManualInput(${i},this.value)">
+    </div>`;
+  }
+  area.innerHTML=html;
+}
+
+function onPlayerSelect(idx,val){
+  if(val==='__manual__'){
+    selectedPlayers[idx]='__manual__:';
+  } else {
+    selectedPlayers[idx]=val;
+  }
+  renderPlayerSlots();
+  if(val==='__manual__'){
+    setTimeout(()=>{ const inp=document.getElementById('pm'+idx); if(inp)inp.focus(); },50);
+  }
+}
+
+function onPlayerManualInput(idx,val){
+  selectedPlayers[idx]='__manual__:'+val;
+}
+
+function getPlayerNames(){
+  const names=[];
+  for(let i=0;i<4;i++){
+    const v=selectedPlayers[i];
+    if(!v) continue;
+    if(v.startsWith('__manual__:')){
+      const m=v.slice(11).trim(); if(m) names.push(m);
+    } else if(v && v!=='__manual__') {
+      names.push(v);
+    }
+  }
+  return names;
+}
+
+function renderRegisteredPlayerBtns(){ renderPlayerSlots(); }
+
+
+// ===== スプラッシュ画面 =====
+function initSplash(){
+  setTimeout(()=>{
+    const splash=document.getElementById('splash');
+    if(splash){
+      splash.style.transition='opacity 0.6s ease';
+      splash.style.opacity='0';
+      setTimeout(()=>{
+        splash.classList.add('hidden');
+        showPage('home');
+      }, 600);
+    }
+  }, 2200);
+}
+
+
+function renderRegisteredPlayerBtns(){
+  const area=document.getElementById('registered-players-area');
+  if(!area) return;
+  const list=getPlayers();
+  if(!list.length){
+    area.innerHTML='<div style="font-size:11px;color:#aaa;margin-bottom:4px;">（設定でプレイヤーを登録すると選択できます）</div>';
+    return;
+  }
+  area.innerHTML='<div style="display:flex;flex-wrap:wrap;gap:6px;">'
+    +list.map(name=>`<button onclick="selectPlayer('${name.replace(/'/g,"\'")}') "
+      style="padding:6px 12px;border:1.5px solid var(--green);border-radius:20px;background:#e8f5ed;color:var(--green);font-size:12px;font-weight:700;cursor:pointer;font-family:'Noto Sans JP',sans-serif;"
+      >${name}</button>`).join('')
+    +'</div>';
+}
+
+function selectPlayer(name){
+  // 空いている入力欄に順番に入れる
+  for(let i=0;i<4;i++){
+    const inp=document.getElementById('p'+i);
+    if(inp&&inp.value===''){
+      inp.value=name;
+      return;
+    }
+  }
+  toast('プレイヤーは最大4名です');
+}
+
+
+function selectWeather(btn, val){
+  document.querySelectorAll('.weather-btn').forEach(b=>b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('new-weather').value=val;
+}
+
+
+function saveMyName(){
+  const inp=document.getElementById('my-name-input');
+  const name=inp.value.trim();
+  if(!name){ toast('名前を入力してください'); return; }
+  setMyName(name);
+  // プレイヤー一覧にも追加
+  const list=getPlayers();
+  if(!list.includes(name)){
+    list.push(name);
+    setPlayers(sortPlayers(list));
+    renderPlayerList();
+  }
+  showMyNameDisplay();
+  toast('⭐ 自分の名前を「'+name+'」に設定しました');
+}
+
+function showMyNameDisplay(){
+  const inp=document.getElementById('my-name-input');
+  const disp=document.getElementById('my-name-display');
+  const name=getMyName();
+  if(inp) inp.value=name;
+  if(disp){
+    disp.innerHTML=name
+      ? `現在の設定：<strong style="color:var(--green);">${name}</strong>`
+      : '未設定';
+  }
+}
+
+
+// ===== ラウンド情報編集 =====
+let editSelectedPlayers = ['','','',''];
+
+function openEditRound(){
+  // 現在の値をセット
+  const courseInp=document.getElementById('edit-course');
+  const dateInp=document.getElementById('edit-date');
+  if(courseInp) courseInp.value=G.course||'';
+  // G.dateをdate input用に変換（例：2026年3月28日→2026-03-28）
+  if(dateInp){
+    // fmtDateの逆変換
+    const raw=G.date||'';
+    const m=raw.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+    if(m) dateInp.value=`${m[1]}-${m[2].padStart(2,'0')}-${m[3].padStart(2,'0')}`;
+    else dateInp.value=raw;
+  }
+  // 天気ボタン
+  const wv=G.weather||'';
+  document.getElementById('edit-weather').value=wv;
+  document.querySelectorAll('#edit-weather-btns .weather-btn').forEach(b=>{
+    b.classList.toggle('selected', b.dataset.weather===wv);
+  });
+  // プレイヤースロット
+  editSelectedPlayers=[...G.players,'','','',''].slice(0,4);
+  renderEditPlayerSlots();
+  document.getElementById('modal-edit-round').classList.add('open');
+}
+
+function selectEditWeather(btn,val){
+  document.querySelectorAll('#edit-weather-btns .weather-btn').forEach(b=>b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('edit-weather').value=val;
+}
+
+function renderEditPlayerSlots(){
+  const area=document.getElementById('edit-player-slots');
+  if(!area) return;
+  const myName=getMyName();
+  const allPlayers=[
+    ...(myName?[myName]:[]),
+    ...sortPlayers(getPlayers().filter(p=>p!==myName))
+  ];
+  let html='';
+  for(let i=0;i<4;i++){
+    const sel=editSelectedPlayers[i]||'';
+    const usedByOthers=editSelectedPlayers.filter((_,j)=>j!==i&&_&&_!=='');
+    const available=allPlayers.filter(p=>!usedByOthers.includes(p));
+    const isManual=sel.startsWith('__manual__');
+    const manualVal=isManual?sel.replace('__manual__:',''):(!allPlayers.includes(sel)&&sel?sel:'');
+    const isManualMode=isManual||(!allPlayers.includes(sel)&&sel!=='');
+    html+=`<div style="margin-bottom:10px;">
+      <label class="flbl">プレイヤー${i+1}</label>
+      <select class="fsel" id="ep${i}" onchange="onEditPlayerSelect(${i},this.value)" style="margin-bottom:0;">
+        <option value="">-- 選択してください --</option>
+        ${available.map(p=>`<option value="${p}"${(!isManualMode&&sel===p)?' selected':''}>${p}</option>`).join('')}
+        <option value="__manual__"${isManualMode?' selected':''}>✏️ 直接入力する</option>
+      </select>
+      <input class="fi" type="text" id="epm${i}" placeholder="名前を入力"
+        style="display:${isManualMode?'block':'none'};margin-top:4px;margin-bottom:0;"
+        value="${isManualMode?(isManual?manualVal:sel):''}"
+        oninput="onEditPlayerManualInput(${i},this.value)">
+    </div>`;
+  }
+  area.innerHTML=html;
+}
+
+function onEditPlayerSelect(idx,val){
+  if(val==='__manual__'){
+    editSelectedPlayers[idx]='__manual__:';
+  } else {
+    editSelectedPlayers[idx]=val;
+  }
+  renderEditPlayerSlots();
+  if(val==='__manual__'){
+    setTimeout(()=>{ const inp=document.getElementById('epm'+idx); if(inp)inp.focus(); },50);
+  }
+}
+
+function onEditPlayerManualInput(idx,val){
+  editSelectedPlayers[idx]='__manual__:'+val;
+}
+
+function getEditPlayerNames(){
+  const names=[];
+  for(let i=0;i<4;i++){
+    const v=editSelectedPlayers[i];
+    if(!v) continue;
+    if(v.startsWith('__manual__:')){
+      const m=v.slice(11).trim(); if(m) names.push(m);
+    } else if(v && v!=='__manual__'){
+      names.push(v);
+    }
+  }
+  return names;
+}
+
+function applyEditRound(){
+  const course=document.getElementById('edit-course').value.trim();
+  const dateRaw=document.getElementById('edit-date').value;
+  const weather=document.getElementById('edit-weather').value;
+  const players=getEditPlayerNames();
+  if(!course){ toast('ゴルフ場名を入力してください'); return; }
+  if(!players.length){ toast('プレイヤーを選択してください'); return; }
+
+  G.course=course;
+  if(dateRaw) G.date=fmtDate(dateRaw);
+  G.weather=weather;
+
+  // プレイヤー数が変わる場合はスコア配列を調整
+  if(players.length!==G.players.length){
+    const oldN=G.players.length, newN=players.length, h=G.holes;
+    if(newN>oldN){
+      G.scores=G.scores.map(r=>[...r,...Array(newN-oldN).fill(null)]);
+      G.putts =G.putts.map(r=>[...r,...Array(newN-oldN).fill(null)]);
+      G.oly   =G.oly.map(r=>[...r,...Array(newN-oldN).fill(null)]);
+    } else {
+      G.scores=G.scores.map(r=>r.slice(0,newN));
+      G.putts =G.putts.map(r=>r.slice(0,newN));
+      G.oly   =G.oly.map(r=>r.slice(0,newN));
+    }
+  }
+  G.players=players;
+
+  // ヘッダー更新
+  const hc=document.getElementById('hdr-course-name');
+  const hd=document.getElementById('hdr-course-date');
+  if(hc) hc.textContent=G.course;
+  if(hd) hd.textContent=G.date;
+
+  persist();
+  renderScore();
+  document.getElementById('modal-edit-round').classList.remove('open');
+  toast('✏️ ラウンド情報を更新しました');
+}
+
+
+// ===== 音声入力 =====
+let recognition = null;
+let isRecording = false;
+let voicePanelOpen = false;
+
+function toggleVoiceInput(){
+  if(!voicePanelOpen){ openVoicePanel(); }
+  else { closeVoicePanel(); }
+}
+
+function openVoicePanel(){
+  voicePanelOpen=true;
+  document.getElementById('voice-panel').style.display='block';
+  document.getElementById('snav-mic').classList.add('recording');
+}
+
+function closeVoicePanel(){
+  voicePanelOpen=false;
+  stopVoice();
+  document.getElementById('voice-panel').style.display='none';
+  document.getElementById('snav-mic').classList.remove('recording');
+}
+
+function clearVoiceTranscript(){
+  document.getElementById('voice-transcript').textContent='例：「1ホール 田中5 鈴木4 佐藤6」';
+}
+
+function startVoice(){
+  if(!('webkitSpeechRecognition' in window||'SpeechRecognition' in window)){
+    alert('お使いのブラウザは音声入力に対応していません。\nChromeをお使いください。');
+    return;
+  }
+  if(isRecording){ stopVoice(); return; }
+
+  const SR = window.SpeechRecognition||window.webkitSpeechRecognition;
+  recognition = new SR();
+  recognition.lang='ja-JP';
+  recognition.continuous=false;
+  recognition.interimResults=true;
+  recognition.maxAlternatives=3;
+
+  const btn=document.getElementById('voice-mic-btn');
+  const dot=document.getElementById('voice-status-dot');
+  const status=document.getElementById('voice-status-text');
+
+  recognition.onstart=()=>{
+    isRecording=true;
+    btn.textContent='⏹ 停止';
+    btn.style.background='#e74c3c';
+    dot.style.background='#2ecc71';
+    dot.style.animation='micPulse 0.5s ease infinite';
+    status.textContent='聞いています...';
+  };
+
+  recognition.onresult=(e)=>{
+    let interim='', final='';
+    for(let i=e.resultIndex;i<e.results.length;i++){
+      const t=e.results[i][0].transcript;
+      if(e.results[i].isFinal) final+=t;
+      else interim+=t;
+    }
+    const text=final||interim;
+    document.getElementById('voice-transcript').textContent=text;
+    if(final) parseVoiceInput(final);
+  };
+
+  recognition.onerror=(e)=>{
+    status.textContent='エラー：'+e.error;
+    stopVoice();
+  };
+
+  recognition.onend=()=>{ stopVoice(); };
+  recognition.start();
+}
+
+function stopVoice(){
+  isRecording=false;
+  if(recognition){ try{recognition.stop();}catch(e){} recognition=null; }
+  const btn=document.getElementById('voice-mic-btn');
+  const dot=document.getElementById('voice-status-dot');
+  const status=document.getElementById('voice-status-text');
+  if(btn){ btn.textContent='🎤 話す'; btn.style.background='var(--green)'; }
+  if(dot){ dot.style.background='#e74c3c'; dot.style.animation=''; }
+  if(status) status.textContent='認識完了。もう一度話す場合はボタンを押してください。';
+}
+
+function parseVoiceInput(text){
+  // デバッグ用：認識テキストを表示
+  console.log('音声認識:', text);
+
+  // 全角数字→半角
+  text = text.replace(/[０-９]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0));
+  // 漢数字→算用数字（簡易）
+  const kanjiNum = {'一':1,'二':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,'九':9,'十':10};
+  text = text.replace(/[一二三四五六七八九十]/g, c => kanjiNum[c]||c);
+
+  // ホール番号を抽出（「1ホール」「3番」「2番ホール」など）
+  const holeRe = /(\d+)\s*(?:ホール|番)/;
+  const holeMatch = text.match(holeRe);
+  if(!holeMatch){
+    showVoiceResult('❌ ホール番号が聞き取れませんでした\n「1ホール 田中5 鈴木4」のように話してください', false);
+    return;
+  }
+  const hole = parseInt(holeMatch[1]) - 1;
+  if(hole < 0 || hole >= G.holes){
+    showVoiceResult('❌ ホール番号が範囲外です (1〜' + G.holes + ')', false);
+    return;
+  }
+
+  const n = G.players.length;
+  if(!n){ showVoiceResult('❌ プレイヤーが設定されていません', false); return; }
+
+  // ホール番号部分を除いた残りのテキスト
+  const afterHole = text.slice(holeMatch.index + holeMatch[0].length).trim();
+  console.log('ホール後テキスト:', afterHole);
+
+  const results = [];
+
+  // ① プレイヤー名でのマッチング
+  // テキストをトークンに分解：「名前+数字」のパターンを探す
+  for(let pi = 0; pi < n; pi++){
+    const name = G.players[pi];
+    // 姓（最初のスペースまで、またはそのまま）
+    const sei = name.split(/[\s　]/)[0];
+    // 1文字〜全部でマッチを試みる（長い順から）
+    for(let len = sei.length; len >= 1; len--){
+      const part = sei.slice(0, len);
+      // part の後に空白を挟んで数字が来るパターン
+      const re = new RegExp(part + '[\s　]*(\d+)');
+      const m = afterHole.match(re);
+      if(m){
+        const score = parseInt(m[1]);
+        if(score >= 1 && score <= 20){
+          results.push({pi, score});
+          break;
+        }
+      }
+    }
+  }
+
+  // ② プレイヤー名が全員マッチしなかった場合：数字の順番で割り当て
+  if(results.length === 0){
+    const nums = afterHole.match(/\d+/g);
+    console.log('数字列:', nums);
+    if(nums && nums.length > 0){
+      for(let pi = 0; pi < Math.min(n, nums.length); pi++){
+        const score = parseInt(nums[pi]);
+        if(score >= 1 && score <= 20) results.push({pi, score});
+      }
+    }
+  }
+
+  if(results.length === 0){
+    showVoiceResult('❌ スコアが認識できませんでした\n例：「1ホール 田中5 鈴木4」', false);
+    return;
+  }
+
+  // スコアを反映
+  let msg = '✅ H' + (hole + 1) + '： ';
+  results.forEach(({pi, score}) => {
+    G.scores[hole][pi] = score;
+    const btn = document.getElementById('sc_' + hole + '_' + pi);
+    if(btn){
+      btn.textContent = score;
+      btn.className = 'sc-btn ' + sClass(score, G.pars[hole]);
+    }
+    // オーバー数セル更新
+    const par = G.pars[hole];
+    const ov = score - par;
+    const ovEl = document.getElementById('ov_' + hole + '_' + pi);
+    if(ovEl){
+      ovEl.textContent = ov === 0 ? 'E' : ov > 0 ? '+' + ov : '' + ov;
+      ovEl.style.color = ov < 0 ? '#e74c3c' : ov === 0 ? '#2ecc71' : '#3498db';
+    }
+    msg += G.players[pi] + ':' + score + ' ';
+  });
+
+  refreshTot();
+  renderSummary();
+  persist();
+  showVoiceResult(msg, true);
+}
+
+function showVoiceResult(msg, ok){
+  const el=document.getElementById('voice-transcript');
+  el.textContent=msg;
+  el.style.color=ok?'#2ecc71':'#e74c3c';
+  setTimeout(()=>{ el.style.color='#fff'; },2000);
+}
+
+
+// ===== ホール別音声入力 =====
+let holeVoiceRecognition = null;
+
+function startHoleVoice(hi, mode){
+  // mode: 'score' or 'putt'
+  const n = G.players.length;
+  if(!n){ toast('プレイヤーが設定されていません'); return; }
+  if(!('webkitSpeechRecognition' in window || 'SpeechRecognition' in window)){
+    toast('音声入力はChromeのみ対応です');
+    return;
+  }
+
+  // 既存認識を停止
+  if(holeVoiceRecognition){ try{holeVoiceRecognition.stop();}catch(e){} }
+
+  const label = mode==='putt' ? 'パット' : 'スコア';
+  const names = G.players.map(p=>p.split(/[\s　]/)[0]).join('、');
+  toast(`🎤 H${hi+1} ${label}入力中...\n「${names}」の順に数字を話してください`);
+
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  holeVoiceRecognition = new SR();
+  holeVoiceRecognition.lang = 'ja-JP';
+  holeVoiceRecognition.continuous = false;
+  holeVoiceRecognition.interimResults = false;
+  holeVoiceRecognition.maxAlternatives = 3;
+
+  holeVoiceRecognition.onresult = (e) => {
+    // 全候補を収集
+    const candidates = [];
+    for(let i = e.resultIndex; i < e.results.length; i++){
+      for(let j = 0; j < e.results[i].length; j++){
+        candidates.push(e.results[i][j].transcript);
+      }
+    }
+    // 認識テキストを表示（デバッグ兼ユーザー確認用）
+    toast('🎤 認識: ' + candidates[0]);
+    // 全候補を試してスコアが取れたものを使う
+    for(const cand of candidates){
+      const nums = extractScoreNums(cand, n, mode);
+      if(nums.length > 0){
+        applyHoleVoice(hi, mode, cand, nums);
+        return;
+      }
+    }
+    // どれもダメなら最初の候補で試す
+    if(candidates.length > 0) applyHoleVoice(hi, mode, candidates[0], null);
+  };
+
+  holeVoiceRecognition.onerror = (e) => {
+    toast('❌ 音声認識エラー: ' + e.error);
+  };
+
+  holeVoiceRecognition.start();
+}
+
+function extractScoreNums(text, n, mode){
+  const max = mode==='putt' ? 10 : 20;
+
+  // 全角→半角
+  text = text.replace(/[０-９]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0));
+
+  // 漢数字→半角数字
+  const knMap = {'〇':'0','零':'0','一':'1','二':'2','三':'3','四':'4','五':'5',
+                 '六':'6','七':'7','八':'8','九':'9'};
+  text = text.replace(/十([一二三四五六七八九])/g, (_,c)=>'1'+(knMap[c]||c));
+  text = text.replace(/十/g,'10');
+  text = text.replace(/[〇零一二三四五六七八九]/g, c=>knMap[c]||c);
+
+  // ひらがな読み→数字（長いものから優先）
+  const yomiMap = [
+    ['にじゅう','20'],['じゅうきゅう','19'],['じゅうく','19'],['じゅうはち','18'],
+    ['じゅうしち','17'],['じゅうなな','17'],['じゅうろく','16'],['じゅうご','15'],
+    ['じゅうし','14'],['じゅうよん','14'],['じゅうさん','13'],['じゅうに','12'],
+    ['じゅういち','11'],['じゅう','10'],
+    ['きゅう','9'],['はち','8'],['なな','7'],['しち','7'],['ろく','6'],
+    ['ご','5'],['よん','4'],['し','4'],['さん','3'],['に','2'],['いち','1'],
+  ];
+  for(const [k,v] of yomiMap){
+    text = text.split(k).join(' '+v+' ');
+  }
+
+  // スペースで分割したトークンから数字を抽出
+  // スペース区切りのトークンに分解
+  const tokens = text.match(/\d+/g) || [];
+  const allNums = [];
+
+  for(const tok of tokens){
+    if(tok.length === 1){
+      // 1桁はそのまま
+      const v = parseInt(tok);
+      if(v >= 0 && v <= max) allNums.push(v);
+    } else if(tok.length === 2){
+      const v = parseInt(tok);
+      if(v >= 10 && v <= max){
+        // 10〜20は有効な2桁スコア→そのまま使う
+        allNums.push(v);
+      } else {
+        // 45のような2桁→プレイヤー分に分解を試みる
+        const remain = n - allNums.length;
+        const decomp = decomposeNums(tok, Math.min(remain, 2), max);
+        if(decomp.length > 0) decomp.forEach(v2 => allNums.push(v2));
+        else if(v >= 1 && v <= max) allNums.push(v); // 分解失敗はそのまま
+      }
+    } else {
+      // 3桁以上：DPでプレイヤー数分に分解を試みる
+      // 残りスロット数を考慮
+      const remain = n - allNums.length;
+      const decomp = decomposeNums(tok, remain, max);
+      if(decomp.length > 0){
+        decomp.forEach(v => allNums.push(v));
+      } else {
+        // 失敗：2桁優先で1桁ずつ分解
+        let i = 0;
+        while(i < tok.length){
+          if(i+1 < tok.length){
+            const v2 = parseInt(tok.slice(i, i+2));
+            if(v2 >= 10 && v2 <= max){ allNums.push(v2); i+=2; continue; }
+          }
+          const v1 = parseInt(tok[i]);
+          if(v1 >= 0 && v1 <= max) allNums.push(v1);
+          i++;
+        }
+      }
+    }
+  }
+
+  // スコアは1以上、パットは0以上
+  const minVal = mode==='putt' ? 0 : 1;
+  return allNums.filter(v => v >= minVal && v <= max).slice(0, n);
+}
+
+function decomposeNums(tok, n, max){
+  // DPで tok をn個の数値（各1〜2桁、値0〜max）に分解
+  // 2桁（10〜）を優先して探索
+  let found = null;
+  function dfs(pos, acc){
+    if(found) return;
+    if(acc.length === n && pos === tok.length){ found=[...acc]; return; }
+    if(acc.length >= n || pos >= tok.length) return;
+    // 2桁を先に試す（10〜maxの範囲）
+    if(pos+1 < tok.length){
+      const v2 = parseInt(tok.slice(pos, pos+2));
+      if(v2 >= 10 && v2 <= max){ acc.push(v2); dfs(pos+2, acc); acc.pop(); }
+    }
+    // 1桁（1〜9）
+    const v1 = parseInt(tok[pos]);
+    if(v1 >= 1 && v1 <= 9){ acc.push(v1); dfs(pos+1, acc); acc.pop(); }
+    // 0（パット用）
+    if(v1 === 0){ acc.push(0); dfs(pos+1, acc); acc.pop(); }
+  }
+  dfs(0, []);
+  return found || [];
+}
+
+function applyHoleVoice(hi, mode, text, preNums=null){
+  console.log('音声:', text);
+  const n = G.players.length;
+
+  // ① プレイヤー名+数字でマッチ
+  let normalized = text.replace(/[０-９]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0));
+  const kn2 = {'一':'1','二':'2','三':'3','四':'4','五':'5','六':'6','七':'7','八':'8','九':'9'};
+  normalized = normalized.replace(/[一二三四五六七八九]/g, c => kn2[c] || c);
+
+  const results = [];
+  for(let pi = 0; pi < n; pi++){
+    const name = G.players[pi];
+    const sei = name.split(/[\s　]/)[0];
+    for(let len = sei.length; len >= 1; len--){
+      const part = sei.slice(0, len);
+      const re = new RegExp(part + '[\s　]*(\d+)');
+      const m = normalized.match(re);
+      if(m){
+        const v = parseInt(m[1]);
+        const max = mode==='putt' ? 10 : 20;
+        if(v >= 1 && v <= max){ results.push({pi, v}); break; }
+      }
+    }
+  }
+
+  // ② 名前マッチなし→事前抽出済みnums or 再抽出
+  if(results.length === 0){
+    const nums = preNums || extractScoreNums(text, n, mode);
+    console.log('抽出数字:', nums);
+    for(let pi = 0; pi < Math.min(n, nums.length); pi++){
+      results.push({pi, v: nums[pi]});
+    }
+  }
+
+  if(results.length === 0){
+    toast('❌ 聞き取れませんでした\nもう一度H' + (hi+1) + 'をタップ');
+    return;
+  }
+
+  // スコア/パットに反映
+  let msg = '✅ H' + (hi+1) + ' ';
+  results.forEach(({pi, v}) => {
+    if(mode === 'score'){
+      G.scores[hi][pi] = v;
+      const btn = document.getElementById('sc_' + hi + '_' + pi);
+      if(btn){ btn.textContent = v; btn.className = 'sc-btn ' + sClass(v, G.pars[hi]); }
+      const ov = v - G.pars[hi];
+      const ovEl = document.getElementById('ov_' + hi + '_' + pi);
+      if(ovEl){
+        ovEl.textContent = ov===0?'E':ov>0?'+'+ov:''+ov;
+        ovEl.style.color = ov<0?'#e74c3c':ov===0?'#2ecc71':'#3498db';
+      }
+    } else {
+      G.putts[hi][pi] = v;
+      const btn = document.getElementById('pt_' + hi + '_' + pi);
+      if(btn) btn.textContent = v;
+    }
+    msg += G.players[pi] + ':' + v + ' ';
+  });
+
+  if(mode === 'score'){ refreshTot(); renderSummary(); }
+  else { refreshPuttTot(); }
+  persist();
+  toast(msg);
+}
+
+
+// ===== 履歴グラフ =====
+let histRange = '1y';
+
+function setHistRange(range){
+  histRange = range;
+  ['1y','6m','all'].forEach(r=>{
+    const btn=document.getElementById('hrange-'+r);
+    if(btn) btn.classList.toggle('active', r===range);
+  });
+  renderHistChart();
+}
+
+function getHistRangeData(){
+  const now = new Date();
+  return G.history.filter(r=>{
+    if(histRange==='all') return true;
+    const m = (r.date||'').match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+    if(!m) return false;
+    const d = new Date(parseInt(m[1]), parseInt(m[2])-1, parseInt(m[3]));
+    const months = histRange==='1y' ? 12 : 6;
+    const cutoff = new Date(now);
+    cutoff.setMonth(cutoff.getMonth() - months);
+    return d >= cutoff;
+  });
+}
+
+function renderHistChart(){
+  const canvas = document.getElementById('hist-chart');
+  if(!canvas) return;
+  const data = getHistRangeData()
+    .filter(r=>{ const p0=r.scores.map(row=>row[0]); return p0.some(s=>s!==null); })
+    .sort((a,b)=>parseHistDate(a.date)-parseHistDate(b.date));
+
+  const avgEl = document.getElementById('hist-avg');
+
+  if(!data.length){
+    if(avgEl) avgEl.textContent='この期間のデータがありません';
+    const ctx=canvas.getContext('2d');
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    return;
+  }
+
+  // スコア計算
+  const scores = data.map(r=>{
+    const p0=r.scores.map(row=>row[0]);
+    return p0.reduce((s,v)=>s+(v||0),0);
+  });
+  const labels = data.map(r=>{
+    const m=(r.date||'').match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+    return m ? m[2]+'/'+m[3] : r.date;
+  });
+  const avg = scores.reduce((a,b)=>a+b,0)/scores.length;
+  const minS = Math.min(...scores), maxS = Math.max(...scores);
+
+  if(avgEl) avgEl.innerHTML =
+    `アベレージ：<strong style="color:var(--green);font-size:15px;">${avg.toFixed(1)}</strong>　`+
+    `最良：<strong style="color:#2563eb;">${minS}</strong>　`+
+    `最多：<strong style="color:#e74c3c;">${maxS}</strong>　`+
+    `（${scores.length}ラウンド）`;
+
+  // Canvas描画
+  const W = Math.max(canvas.parentElement.clientWidth-16, 300);
+  const H = 160;
+  canvas.width = Math.max(W, labels.length * 40);
+  canvas.height = H;
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0,0,canvas.width,H);
+
+  const PAD = {top:16, bottom:32, left:36, right:12};
+  const gW = canvas.width - PAD.left - PAD.right;
+  const gH = H - PAD.top - PAD.bottom;
+  const yMin = Math.max(50, minS-10);
+  const yMax = maxS+10;
+  const yRange = yMax - yMin || 1;
+
+  const toX = i => PAD.left + (i/(scores.length-1||1))*gW;
+  const toY = v => PAD.top + (1-(v-yMin)/yRange)*gH;
+
+  // 背景グリッド
+  ctx.strokeStyle='#eee'; ctx.lineWidth=1;
+  for(let g=0;g<=4;g++){
+    const y=PAD.top+gH*(g/4);
+    ctx.beginPath(); ctx.moveTo(PAD.left,y); ctx.lineTo(PAD.left+gW,y); ctx.stroke();
+    const val=Math.round(yMax-(g/4)*yRange);
+    ctx.fillStyle='#aaa'; ctx.font='10px sans-serif'; ctx.textAlign='right';
+    ctx.fillText(val, PAD.left-4, y+4);
+  }
+
+  // アベレージ線
+  const avgY = toY(avg);
+  ctx.strokeStyle='rgba(30,132,73,0.3)'; ctx.lineWidth=1.5; ctx.setLineDash([4,3]);
+  ctx.beginPath(); ctx.moveTo(PAD.left,avgY); ctx.lineTo(PAD.left+gW,avgY); ctx.stroke();
+  ctx.setLineDash([]);
+
+  // 折れ線
+  ctx.strokeStyle='var(--green)'; ctx.lineWidth=2.5;
+  ctx.beginPath();
+  scores.forEach((v,i)=>{ const x=toX(i),y=toY(v); i===0?ctx.moveTo(x,y):ctx.lineTo(x,y); });
+  ctx.stroke();
+
+  // グラデーション塗り
+  const grad=ctx.createLinearGradient(0,PAD.top,0,PAD.top+gH);
+  grad.addColorStop(0,'rgba(30,132,73,0.25)'); grad.addColorStop(1,'rgba(30,132,73,0)');
+  ctx.fillStyle=grad;
+  ctx.beginPath();
+  scores.forEach((v,i)=>{ const x=toX(i),y=toY(v); i===0?ctx.moveTo(x,y):ctx.lineTo(x,y); });
+  ctx.lineTo(toX(scores.length-1),PAD.top+gH); ctx.lineTo(PAD.left,PAD.top+gH); ctx.closePath();
+  ctx.fill();
+
+  // ドットと日付ラベル
+  scores.forEach((v,i)=>{
+    const x=toX(i), y=toY(v);
+    ctx.fillStyle=v===minS?'#2563eb':v===maxS?'#e74c3c':'#1e8449';
+    ctx.beginPath(); ctx.arc(x,y,4,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(x,y,2,0,Math.PI*2); ctx.fill();
+    // ラベル（間引き）
+    if(scores.length<=10 || i%(Math.ceil(scores.length/8))===0){
+      ctx.fillStyle='#888'; ctx.font='9px sans-serif'; ctx.textAlign='center';
+      ctx.fillText(labels[i], x, H-4);
+    }
+  });
+}
+
+// ===== INIT =====
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+}
+loadSaved();
+// パットボタンの初期状態
+updatePuttBtn();
+const _hc2=document.getElementById('hdr-course-name');
+const _hd2=document.getElementById('hdr-course-date');
+if(_hc2) _hc2.textContent=G.course||'-';
+if(_hd2) _hd2.textContent=G.date||'';
+initSplash();
+if(G.players.length) renderScore();
+</script>
+</body>
+</html>
